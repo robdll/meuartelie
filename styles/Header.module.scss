@@ -1,0 +1,22 @@
+.header {
+  background-image:  url("../public/png/welcome_mobile.png");
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Jokerman Std';
+  font-weight: normal;
+  font-size: 2.75rem;
+  text-align: center;
+  margin: 0 0 1.25rem 0;
+  
+}
+
+.subtitle {
+  line-height: 2;
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin: 0 13% 10% 13%;
+  font-family: 'Lora', serif;
+  text-align: center;
+}

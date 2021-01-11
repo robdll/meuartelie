@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Meuartelie</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,12 +13,12 @@ export default function Home() {
 
       <Navbar></Navbar>
 
-      <main className={styles.main}>
+      <Header></Header>
 
-      </main>
+{/*}
 
       <footer className={styles.footer}>
-      </footer>
+  </footer>*/}
     </div>
   )
 }
