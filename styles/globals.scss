@@ -41,7 +41,7 @@ a {
 }
 
 .section {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 15%;
     background-size: cover;
     background-position: bottom;
@@ -58,4 +58,17 @@ a {
     height: 1px;
     width: 70px;
     display: inline;
+}
+
+.title {
+    font-family: 'Jokerman Std';
+    font-weight: normal;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 0.75em;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+    margin: 0px;
 }

@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.about {
+  align-items: flex-start;
+  color: $primary-font-color;
+  background-size: auto;
+  padding: 15% 10% 0 10%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .separator {
+    margin: 1rem 0 0 0.5rem;
+    width: 50px;
+  }
+
+}
