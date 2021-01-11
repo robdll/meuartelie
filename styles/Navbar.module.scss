@@ -1,0 +1,10 @@
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  z-index: 5;
+}
