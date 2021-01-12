@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+.testimonial {
+  align-items: center;
+  color: $primary-font-color;
+  background-size: auto;
+  padding: 15% 10% 0 10%;
+  background-image:  url("/png/snow.png");
+}
+
+.testimonial__card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10% 15%;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
+  box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
+}
+
+.testimonial__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: -60px;
+}
+
+.testimonial__copy {
+  margin-top: 10%;
+  font-weight: bold;
+  font-family: 'Lora';
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.testimonial__name {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.testimonial__city {
+  font-size: .8rem;
+  margin: 0.25rem;
+}
+
+.testimonial__more {
+  margin: 10% 42.5%;
+  width: 15%;
+}
+
+.testimonial__photo_container {
+  width: 50%;
+  margin: -30% auto 0 auto;
+}
