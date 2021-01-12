@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# dev
+/public/unused/*
+
 # production
 /build
 
