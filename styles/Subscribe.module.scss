@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.subscribe {
+  align-items: center;
+  color: $primary-font-color;
+  background-size: auto;
+  padding: 15% 10% 0 10%;
+}
+
+.subscribe__photo {
+  width: 40%;
+  margin-top: 10%;
+}
+
+.subscribe__copy {
+  font-family: 'Lora';
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.subscribe__input {
+  border: none;
+  padding: 20px 10%;
+  box-shadow: 4px 8px 25px 5px rgba(20,6,35,0.09);
+  border-radius: 25px;
+  width: 80%;
+  margin: 5% 5% 10% 5%;
+}

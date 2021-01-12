@@ -5,6 +5,7 @@ import About from './components/About'
 import Project from './components/Project'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
+import Subscribe from './components/Subscribe'
 
 export default function Home() {
   return (
@@ -22,13 +23,12 @@ export default function Home() {
       <Project></Project>
       <Services></Services>
       <Testimonial></Testimonial>
-
+      <Subscribe></Subscribe>
+      {/* TODO add <Instagram></Instagram> */}
       
-
-{/*}
-
-      <footer className={styles.footer}>
-  </footer>*/}
+      {/*}
+        <footer className={styles.footer}>
+    </footer>*/}
     </div>
   )
 }
