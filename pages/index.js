@@ -6,6 +6,7 @@ import Project from './components/Project'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
 import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -23,9 +24,15 @@ export default function Home() {
       <Project></Project>
       <Services></Services>
       <Testimonial></Testimonial>
-      <Subscribe></Subscribe>
       {/* TODO add <Instagram></Instagram> */}
-      
+      <Subscribe></Subscribe>
+      <Footer></Footer>
+      <div className="footer__rights"> 
+        Todos os direitos reservados por Cintya Flores
+        <br />
+        Meu Arteliê 2020
+      </div>
+
       {/*}
         <footer className={styles.footer}>
     </footer>*/}
