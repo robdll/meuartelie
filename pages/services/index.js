@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import About from './components/About'
-import Project from './components/Project'
-import Services from './components/Services'
-import Testimonial from './components/Testimonial'
-import Subscribe from './components/Subscribe'
-import Footer from './components/Footer'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import ServicesHeader from '../components/ServicesHeader'
+import ServicesDetail from '../components/ServicesDetail'
+//import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   return (
@@ -18,14 +15,11 @@ export default function Home() {
       </Head>
 
       <Navbar></Navbar>
-
-      <Header></Header>
-      <About></About>
-      <Project></Project>
-      <Services></Services>
-      <Testimonial></Testimonial>
-      {/* TODO add <Instagram></Instagram> */}
+      <ServicesHeader></ServicesHeader>
+      <ServicesDetail></ServicesDetail>
+      {/*}
       <Subscribe></Subscribe>
+      <ContactForm></ContactForm>*/}
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores

@@ -45,9 +45,9 @@
 .more {
   cursor: pointer;
   font-size: 0.7em;
-  color: #140623;
+  color: $secondary-font-color;
   font-weight: normal;
   font-family: 'Lora';
   /* text-decoration: underline; */
-  border-bottom: 1px solid #140623;
+  border-bottom: 1px solid $secondary-font-color;
 }

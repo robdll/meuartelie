@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.details {
+  color: $secondary-font-color;
+  padding: 15% 10% 10% 10%;
+  height: auto;
+  align-items: flex-start;
+}
+
+
+.spacer {
+  margin-top: 1.5rem;
+}
+
+.separator {
+  margin-bottom: 5%;
+  margin-top: 0;
+  align-self: center;
+}
+
+.title {
+  align-self: center;
+}

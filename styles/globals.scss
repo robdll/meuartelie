@@ -18,6 +18,16 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+a:hover {
+    color: #8F34EB;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:link, a:visited,  a:active {
+    text-decoration: auto;
+    color: #fff;
+    font-family: 'Lora';
+}
 
 * {
 	box-sizing: border-box;
@@ -78,8 +88,9 @@ a {
 }
 
 .footer__rights {
-    background: #140623;
+    background: $secondary-font-color;
     text-align: center;
     font-size: 0.6em;
     padding: 10px;
 }
+
