@@ -3,6 +3,8 @@
 import React from "react";
 import styles from '../../styles/Header.module.scss'
 
+
+/** TODO add follogin animation https://www.youtube.com/watch?v=KwoSm0E8MOE&ab_channel=CodingNepal */
 const ServicesHeader = _ => (
     <div className={`section ${styles.service}`}>
         <h2 className="title">Meus Serviços</h2>
