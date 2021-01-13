@@ -3,7 +3,8 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import ServicesHeader from '../components/ServicesHeader'
 import ServicesDetail from '../components/ServicesDetail'
-//import ContactForm from '../components/ContactForm'
+import Subscribe from '../components/Subscribe'
+import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   return (
@@ -17,9 +18,8 @@ export default function Home() {
       <Navbar></Navbar>
       <ServicesHeader></ServicesHeader>
       <ServicesDetail></ServicesDetail>
-      {/*}
+      <ContactForm></ContactForm>
       <Subscribe></Subscribe>
-      <ContactForm></ContactForm>*/}
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores
@@ -27,9 +27,6 @@ export default function Home() {
         Meu Arteliê 2021
       </div>
 
-      {/*}
-        <footer className={styles.footer}>
-    </footer>*/}
     </div>
   )
 }

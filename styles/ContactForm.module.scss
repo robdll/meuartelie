@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+.contactform {
+    align-items: center;
+    color: $primary-font-color;
+    background-size: cover;
+    padding: 15% 10% 0 10%;
+    background-image:  url("/png/snow.png");
+}
+
+.subscribe__input {
+    border: none;
+    padding: 20px 10%;
+    box-shadow: 4px 8px 25px 5px rgba(20,6,35,0.09);
+    border-radius: 25px;
+    width: 80%;
+    margin: 5% 5% 10% 5%;
+  }
