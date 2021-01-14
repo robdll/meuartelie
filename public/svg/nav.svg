@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
   <g id="Group_252" data-name="Group 252" transform="translate(-1485 -30)">
-    <circle id="Ellipse_13" data-name="Ellipse 13" cx="25" cy="25" r="25" transform="translate(1485 30)" fill="#8F34EB"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="25" cy="25" r="25" transform="translate(1485 30)" fill="#8F34EB" fill-opacity="0.75"/>
     <g id="Group_132" data-name="Group 132" transform="translate(1502 48)">
       <line id="Line_1" data-name="Line 1" x2="15.358" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_2" data-name="Line 2" x2="9.92" transform="translate(0 6.613)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>

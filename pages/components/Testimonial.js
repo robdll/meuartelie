@@ -5,6 +5,8 @@ import styles from '../../styles/Testimonial.module.scss'
 import Image from 'next/image'
 import Dots from "../../public/svg/3dots.svg";
 
+
+/** TODO  apply transition https://codepen.io/murphyg/pen/qBWpLda */
 const Testimonial = _ => (
     <div className={`section ${styles.testimonial}`}>
         <h2 className={`title`}>Clientes Felizes</h2>

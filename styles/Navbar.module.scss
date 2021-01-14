@@ -13,15 +13,18 @@
 
 .menu__container {
   font-family: 'Jokerman Std';
-  position: fixed;
-  top: 0;
+  position: absolute;
+  /* TODO FIX top pos */
+  top: -400px;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 300px;
   z-index: -1;
   background-image:  url("../public/png/welcome_mobile.png");
-  background-size: cover;
-  overflow: hidden  
+  background-color: black;
+  background-size: 100% auto;
+  overflow: hidden;
+  transition: 850ms;
 }
 
 .menu__content {
@@ -32,14 +35,9 @@
   margin-top: 20%;
 }
 
-.open {
-  background-color: white;
-  opacity: 0;
-}
-
-.closed {
-  background-size: cover;
-  opacity: 1;
+.menu__container.toggle {
+  top: 0;
+  transition: all 1s ease-in;
 }
 
 .menu__list {
@@ -78,16 +76,17 @@
   right: 0;
   width: 40%;
   background: #fff;
-  /* optional animation */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  transition: .5s;
+
 }
 	 
 
 /* optional hover classes used with anmiation */
 .menu__item:hover:after {
   background: $base-color;
+}
+
+.hamburger {
+  z-index: 1000;
+  cursor: pointer;
 }
