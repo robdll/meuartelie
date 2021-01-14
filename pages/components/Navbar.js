@@ -1,10 +1,8 @@
 
 import React, { useState } from "react";
-import NavMenuIcon from "../../public/svg/nav.svg";
 import styles from '../../styles/Navbar.module.scss'
 import Link from 'next/link'
 
-/** TODO  replace hamburger with https://www.youtube.com/watch?v=dIyVTjJAkLw&ab_channel=codeSTACKr */
 /** TODO fix navbar animation https://stackoverflow.com/questions/65718947/overlay-navbar-with-transition-in-react */
 
 function Navbar() {
@@ -26,7 +24,9 @@ function Navbar() {
     return (
       <div className={styles.navbar}>
         <i>Meuartelie</i>
-        <NavMenuIcon className={styles.hamburger} onClick={toggleMenu} />
+        <div className={`${styles.menu_btn} ${menu ? styles.open : ''}`} onClick={toggleMenu}>
+          <div className={styles.menu_btn__burger}></div>
+        </div>
         <Menu toggle={menu}></Menu>
       </div>
     );
