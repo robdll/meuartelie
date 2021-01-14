@@ -26,3 +26,16 @@
   width: 80%;
   margin: 5% 5% 10% 5%;
 }
+
+
+@media screen and (min-width: 376px) {
+  .subscribe__photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    margin-bottom: 2rem;
+  }
+  
+}

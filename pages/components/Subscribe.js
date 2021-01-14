@@ -18,7 +18,7 @@ const Subscribe = _ => (
         </div>
         <p className={styles.subscribe__copy}>Aproveite esta mandala prontinha para imprimir e deixe este portal iluminar sua casa! As intenções desta mandala são equilíbrio, cura e sabedoria!</p>
         <input type="email" className={styles.subscribe__input}  placeholder="Insira o endereço de e-mail"/>
-        <div className={`btn`}>Subscreva</div>
+        <div className={`btn ${styles.btn}`}>Subscreva</div>
     </div>
 );
 

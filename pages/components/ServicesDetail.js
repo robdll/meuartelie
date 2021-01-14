@@ -9,7 +9,7 @@ const ServicesDetail = _ => (
         <section id="art" className={`section ${styles.details}`} id="art"> 
             <h3 className={`title ${styles.title}`}>Mandala Art</h3>
             <span className={`separator ${styles.separator}`}> </span>
-            <div className={styles.service__photo}>
+            <div className={styles.image__container}>
                 <Image
                     className="videoplaceholder"
                     src="/png/videocover.png"
@@ -33,7 +33,7 @@ const ServicesDetail = _ => (
         <section id="courses" className={`section ${styles.details}`} >
             <h3 className={`title ${styles.title}`}>Video Aula</h3>
             <span className={`separator ${styles.separator}`}> </span>
-            <div className={styles.service__photo}>
+            <div className={styles.image__container}>
                 <Image
                     className="videoplaceholder"
                     src="/png/videocover.png"
@@ -55,7 +55,7 @@ const ServicesDetail = _ => (
         <section id="reading" className={`section ${styles.details}`}>
             <h3 className={`title ${styles.title}`}>Leitura e Interpretação</h3>
             <span className={`separator ${styles.separator}`}> </span>
-            <div className={styles.service__photo}>
+            <div className={styles.image__container}>
                 <Image
                     className="videoplaceholder"
                     src="/png/videocover.png"
@@ -77,7 +77,7 @@ const ServicesDetail = _ => (
         <section id="selfknowledge" className={`section ${styles.details}`}>
             <h3 className={`title ${styles.title}`}>Autoconhecimento</h3>
             <span className={`separator ${styles.separator}`}> </span>
-            <div className={styles.service__photo}>
+            <div className={styles.image__container}>
                 <Image
                     className="videoplaceholder"
                     src="/png/videocover.png"

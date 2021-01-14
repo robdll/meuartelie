@@ -10,7 +10,7 @@ const ContactForm = _ => (
         <input type="email" className={styles.subscribe__input} placeholder="Insira o endereço de e-mail"/>
         <input type="text" className={styles.subscribe__input} placeholder="Sujeita"/>
         <input type="textarea" className={styles.subscribe__input} placeholder="Seu Texto Aqui"/>
-        <div className={`btn`}>Enviar</div>
+        <div className={`btn ${styles.btn}`}>Enviar</div>
     </div>
 );
 

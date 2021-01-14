@@ -57,3 +57,19 @@
   width: 50%;
   margin: -30% auto 0 auto;
 }
+
+.title {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 376px) {
+  .testimonial__photo_container {
+    max-width: 100px;
+    margin-top: -20%;
+  }
+
+  .testimonial__card {
+    padding: 5% 10%;
+  }
+  
+}

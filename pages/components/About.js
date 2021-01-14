@@ -7,12 +7,14 @@ import Sign from "../../public/svg/signature.svg";
 
 const About = _ => (
     <div id="about" className={`section ${styles.about}`}>
-        <Image
-            src="/png/sobremim.png"
-            alt="Cintya Flores"
-            width={312}
-            height={300}
-        />
+        <div className={styles.image__container}>
+            <Image
+                src="/png/sobremim.png"
+                alt="Cintya Flores"
+                width={312}
+                height={300}
+            />
+            </div>
         <div className={styles.container}>
             <h2 className={`title`}>Sobre Mim </h2>
             <span className={`separator`}> </span>

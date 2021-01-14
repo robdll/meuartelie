@@ -19,3 +19,16 @@
   }
 
 }
+
+.image__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 376px) {
+  .image__container {
+    align-self: center;
+  }
+}

@@ -1,6 +1,7 @@
 .header {
   background-image:  url("../public/png/welcome_mobile.png");
   background-size: cover;
+  padding-top: 5%;
 }
 
 .title {
@@ -15,7 +16,7 @@
   line-height: 2;
   font-size: 0.9rem;
   font-weight: normal;
-  margin: 0 13% 10% 13%;
+  margin: 0 13% 30px 13%;
   font-family: 'Lora', serif;
   text-align: center;
 }
@@ -46,9 +47,18 @@
   text-decoration: auto;
 }
 
-.service__photo {
-  border: 1px solid lightgray;
-  border-radius: 10px;
-  margin-bottom: 2rem;
-}
 
+@media screen and (min-width: 376px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .service {
+    padding-top: 10%;
+  }
+
+  .btn {
+    margin-bottom: 2rem;
+  }
+
+}
