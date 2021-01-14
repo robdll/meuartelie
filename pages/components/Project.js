@@ -5,7 +5,7 @@ import styles from '../../styles/Project.module.scss'
 import Image from 'next/image'
 
 const Project = _ => (
-    <div className={`section ${styles.project}`}>
+    <div id="project" className={`section ${styles.project}`}>
         <h2 className="title">Sobre o Projeto MeuArtelie</h2>
         <span className={`separator ${styles.marginbot}`}> </span>
         {/** TODO: use responsive layout */}

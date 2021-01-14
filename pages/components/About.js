@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Sign from "../../public/svg/signature.svg";
 
 const About = _ => (
-    <div className={`section ${styles.about}`}>
+    <div id="about" className={`section ${styles.about}`}>
         <Image
             src="/png/sobremim.png"
             alt="Cintya Flores"

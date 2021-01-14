@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const ServicesDetail = _ => (
     <div>
-        <section className={`section ${styles.details}`} id="art"> 
+        <section id="art" className={`section ${styles.details}`} id="art"> 
             <h3 className={`title ${styles.title}`}>Mandala Art</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.service__photo}>
@@ -30,7 +30,7 @@ const ServicesDetail = _ => (
             <div className={`btn ${styles.spacer}`}>Compre Agora</div>
         </section>
 
-        <section className={`section ${styles.details}`} id="video">
+        <section id="courses" className={`section ${styles.details}`} >
             <h3 className={`title ${styles.title}`}>Video Aula</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.service__photo}>
@@ -52,7 +52,7 @@ const ServicesDetail = _ => (
             <div className={`btn ${styles.spacer}`}>Compre Agora</div>
         </section>
 
-        <section className={`section ${styles.details}`} id="reading">
+        <section id="reading" className={`section ${styles.details}`}>
             <h3 className={`title ${styles.title}`}>Leitura e Interpretação</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.service__photo}>
@@ -74,7 +74,7 @@ const ServicesDetail = _ => (
             <div className={`btn ${styles.spacer}`}>Compre Agora</div>
         </section>
 
-        <section className={`section ${styles.details}`} id="class">
+        <section id="selfknowledge" className={`section ${styles.details}`}>
             <h3 className={`title ${styles.title}`}>Autoconhecimento</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.service__photo}>

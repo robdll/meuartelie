@@ -5,7 +5,7 @@ import styles from '../../styles/Subscribe.module.scss'
 import Image from 'next/image'
 
 const Subscribe = _ => (
-    <div className={`section ${styles.subscribe}`}>
+    <div id="subscribe" className={`section ${styles.subscribe}`}>
         <h2 className={`title`}>Inscreva-se</h2>
         <span className={`separator`}> </span>
         <div className={styles.subscribe__photo}>

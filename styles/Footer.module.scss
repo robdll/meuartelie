@@ -59,6 +59,7 @@
 }
 
 .footer__list {
+  width: 50%;
   list-style: none;
   padding: 0px;
   line-height: 2;
@@ -74,4 +75,10 @@
   svg {
     margin-right: 10px;
   }
+}
+
+.sitemap__container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
 }

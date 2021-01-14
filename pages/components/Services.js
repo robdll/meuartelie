@@ -8,7 +8,7 @@ import ClassesIcon from "../../public/svg/reading_icon.svg";
 import SelfknoledgeIcon from "../../public/svg/selfknoledge_icon.svg";
 
 const Services = _ => (
-    <div className={`section ${styles.services}`}>
+    <div id="services" className={`section ${styles.services}`}>
         <h2 className={`title`}> Meus Serviços</h2>
         <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.service__container}>

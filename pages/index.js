@@ -16,15 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
+      {/* TODO add <Instagram></Instagram> */}
       <Navbar></Navbar>
-
       <Header></Header>
       <About></About>
       <Project></Project>
       <Services></Services>
       <Testimonial></Testimonial>
-      {/* TODO add <Instagram></Instagram> */}
       <Subscribe></Subscribe>
       <Footer></Footer>
       <div className="footer__rights"> 
@@ -32,10 +30,6 @@ export default function Home() {
         <br />
         Meu Arteliê 2021
       </div>
-
-      {/*}
-        <footer className={styles.footer}>
-    </footer>*/}
     </div>
   )
 }
