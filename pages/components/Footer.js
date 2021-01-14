@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import styles from '../../styles/Footer.module.scss'
 import EmailIcon from "../../public/svg/email_icon.svg";
@@ -47,11 +45,9 @@ const Footer = _ => (
             </ul>
         </div>
         <span className={styles.footer__list_title} >Contactame</span>
-        <ul className={styles.footer__list}>
+        <ul className={`${styles.footer__list} ${styles.footer__contact}`}>
             <li className={styles.flex}> 
-            
                 <EmailIcon></EmailIcon> <Link href="/services#contact"> cintya@meuartelie.com </Link>
-            
             </li>
             <li className={styles.flex}> 
                 <PhoneIcon></PhoneIcon> +351 910077277
