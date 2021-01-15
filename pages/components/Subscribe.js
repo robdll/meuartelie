@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Subscribe = _ => (
     <div id="subscribe" className={`section ${styles.subscribe}`}>
         <h2 className={`title`}>Inscreva-se</h2>
-        <span className={`separator`}> </span>
+        <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.subscribe__photo}>
             <Image
                 src="/png/subscribe.png"

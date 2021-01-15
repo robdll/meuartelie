@@ -86,3 +86,10 @@
 .footer__contact {
   width: 100%;
 }
+
+@media screen and (min-width: 376px) {
+  .footer {
+    background-image:  url("/png/footer.png");
+    padding: 100px 10% 0 10%;
+  }
+}

@@ -140,3 +140,22 @@
   transform: rotate(-45deg) translate(35px, 35px);
   width: 15px;
 }
+
+@media screen and (min-width: 376px) {
+  .menu__container {
+    background-image:  url("/png/welcome_bg.png");
+  }
+  .menu__content {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu__content {
+    margin-top: 5%;
+  }
+
+  .menu__item:after {
+    width: 30%;
+  }
+}

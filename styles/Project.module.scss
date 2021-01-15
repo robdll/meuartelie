@@ -8,7 +8,7 @@
   background-image:  url("/png/snow.png");
 }
 
-.marginbot {
+.separator {
   margin: 0 auto 10% auto;
 }
 
@@ -27,3 +27,15 @@
     align-items: center;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .project {
+    padding: 10%;
+  }
+  .separator {
+    margin: 20px auto 30px auto;
+  }
+  
+}
+
+

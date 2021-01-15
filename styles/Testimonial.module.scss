@@ -67,9 +67,18 @@
     max-width: 100px;
     margin-top: -20%;
   }
-
   .testimonial__card {
     padding: 5% 10%;
   }
-  
+}
+
+@media screen and (min-width: 769px) {
+  .testimonial {
+    padding: 10% 10% 0 10%;
+  }
+  .testimonial__card {
+    margin-top: 10%;
+    max-width: 65%;
+  }
+
 }

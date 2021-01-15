@@ -7,18 +7,11 @@
   padding: 15% 10% 10% 10%;
 }
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-  .separator {
-    margin: 1rem 0 0 0.5rem;
-    width: 50px;
-  }
-
+.separator {
+  margin: 0 0 1rem 0;
+  width: 50px;
 }
+
 
 .image__container {
   width: 100%;
@@ -30,5 +23,14 @@
 @media screen and (min-width: 376px) {
   .image__container {
     align-self: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .about {
+    padding: 10%;
+  }
+  .paragraph {
+    font-size: 1rem;
   }
 }

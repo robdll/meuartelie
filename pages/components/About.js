@@ -15,23 +15,21 @@ const About = _ => (
                 height={300}
             />
             </div>
-        <div className={styles.container}>
-            <h2 className={`title`}>Sobre Mim </h2>
-            <span className={`separator`}> </span>
-        </div>
+        <h2 className={`title`}>Sobre Mim </h2>
+        <span className={`separator ${styles.separator}`}> </span>
          
-        <p className={`paragraph`}>
+        <p className={`paragraph ${styles.paragraph}`}>
             Sou uma buscadora, curiosa, atenta e sonhadora. No meu processo da busca pelo autoconhecimento, descobri, nas mandalas, um caminho para manifestar a minha capacidade de criação. Elas me trouxeram cura, de questões psicológicas, emocionais e até físicas, porque tudo, afinal é energia e as mandalas como símbolos sagrados, são portais de energia. 
         </p>
         <br />
 
-        <p className={`paragraph`}>
+        <p className={`paragraph ${styles.paragraph}`}>
             Vinda de uma trajetória acadêmica, com 20 anos de experiência em sala de aula, decidi, usar essa capacidade didática para ser uma facilitadora a fim de te apresentar um caminho de conexão entre você e seu Eu Superior!
             Espero que gostem!
         </p>
         <br />
         <Sign></Sign>
-        <p className={`paragraph`}>Empreendedora, Treinadora, Facilitadora</p>
+        <p className={`paragraph ${styles.paragraph}`}>Empreendedora, Treinadora, Facilitadora</p>
     </div>
 );
 

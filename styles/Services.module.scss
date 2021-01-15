@@ -60,3 +60,12 @@
     height: 100%;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .services {
+    padding: 10%;
+  }
+  .separator {
+    margin: 2rem auto 3rem auto;
+  }
+}

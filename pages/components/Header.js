@@ -3,6 +3,7 @@
 import React from "react";
 import styles from '../../styles/Header.module.scss'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = _ => (
     <div className={`section ${styles.header}`}>
@@ -18,7 +19,9 @@ const Header = _ => (
         />
         <h1 className={styles.title}>Meu Arteliê</h1>
         <h3 className={styles.subtitle}>Cocriando uma versão melhor de Gaia Para curar problemas psicológicos, emocionais e até físicos.</h3>
-        <div className={"btn"}>Explorar Servicos</div>
+        <Link href="#services">
+            <div className={"btn"}>Explorar Servicos</div>
+        </Link>
     </div>
 
 );

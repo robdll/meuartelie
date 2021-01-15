@@ -33,9 +33,28 @@
     display: flex;
     justify-content: center;
   }
-
   .btn {
     margin-bottom: 2rem;
   }
-  
+}
+
+@media screen and (min-width: 769px) {
+  .subscribe {
+    padding: 10% 10% 0 10%;
+  }
+  .subscribe__photo {
+    margin-top: 0;
+  }
+  .separator{
+    margin: 2rem auto 3rem auto;
+  }
+  .subscribe__copy {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+  }
+  .subscribe__input {
+    margin-bottom: 5%;
+  }
+
 }
