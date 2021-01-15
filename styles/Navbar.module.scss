@@ -142,20 +142,22 @@
 }
 
 @media screen and (min-width: 376px) {
+  .menu__list {
+    width: 25%;
+  }
   .menu__container {
     background-image:  url("/png/welcome_bg.png");
   }
   .menu__content {
     margin-top: 10%;
   }
+  .menu__item:after {
+    width: 70%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .menu__content {
     margin-top: 5%;
-  }
-
-  .menu__item:after {
-    width: 30%;
   }
 }

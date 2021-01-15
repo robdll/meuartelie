@@ -62,7 +62,10 @@
 
 
 @media screen and (min-width: 769px) {
-.service, .header {
+  .service {
+    padding-top: 70px;
+  }
+  .service, .header {
     background-image:  url("/png/welcome_bg.png");
   }
   .subtitle {
