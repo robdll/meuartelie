@@ -1,23 +1,30 @@
 
 
-import React from "react";
+import React, {useState} from "react";
 import styles from '../../styles/Header.module.scss'
 import Link from 'next/link';
 
-/** TODO add follogin animation https://www.youtube.com/watch?v=KwoSm0E8MOE&ab_channel=CodingNepal */
-const ServicesHeader = _ => (
-    <div className={`section ${styles.service}`}>
-        <h2 className={`title ${styles.service__title}`}>Meus Serviços</h2>
-        <div className={styles.service_link}> 
-            <Link href="/services#art">Art </Link>
-            <Link href="/services#selfknowledge">Autoconhecimento</Link>
-            <Link href="/services#courses">Video</Link>
-            <Link href="/services#reading">Leitura</Link>
+function ServicesHeader()  {
+
+    const [offset, setOffset] = useState(0);
+    const [width, setWidth] = useState(0);
+
+    function handleHover(e) {
+        setOffset(e.nativeEvent.toElement.offsetLeft)
+        setWidth(e.nativeEvent.toElement.offsetWidth);
+    }
+
+    return (
+        <div className={`section ${styles.service}`}>
+            <h2 className={`title ${styles.service__title}`}>Meus Serviços</h2>
+            <div className={styles.service_link__container}> 
+                <div className={styles.marker} style={{left: `${offset}px`, width: `${width}px`, }} ></div>
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#art">Art </Link></span>  
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#selfknowledge">Autoconhecimento</Link></span>    
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#courses">Video</Link></span> 
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#reading">Leitura</Link></span>   
+            </div>
         </div>
-    </div>
-
-);
-
+    );
+}
 export default ServicesHeader;
-
-
