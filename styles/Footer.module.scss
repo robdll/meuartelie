@@ -21,8 +21,8 @@
 .footer__socials_container {
   display: flex;
   justify-content: space-between;
-  margin: 5% auto;
-  min-width: 90%;
+  margin: 0 0 1rem 0;
+  width: 40%;
 }
 
 .footer__socials {
@@ -55,7 +55,7 @@
 .footer__list_title {
   font-weight: bold;
   font-size: 1.5rem;
-  margin: 5% 0 5% 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .footer__list {
@@ -93,3 +93,11 @@
     padding: 100px 10% 0 10%;
   }
 }
+
+
+@media screen and (min-width: 768px) {
+  .footer__socials_container {
+    width: 30%;
+  }
+}
+
