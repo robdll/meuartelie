@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const InstagramFeed = props => {
-    let posts = props.feed.data;
+    let posts = props.feed ? props.feed.data : [];
     posts = posts.filter((i,idx) => idx < 1 )
     posts = posts.map( (i,idx) => <div key={idx} className={styles.photo__card}>
         <Link href={i.permalink} passHref >
