@@ -15,22 +15,22 @@ const Services = _ => (
         <div className={styles.service__container}>
             <article className={styles.card}>
                 <MandalaArtIcon className={styles.icon}></MandalaArtIcon>
-                <h5 className={styles.service__name}>Mandala Art</h5>
+                <h3 className={styles.service__name}>Mandala Art</h3>
                 <Link href="/services#art"><div className={styles.more}> Veja Mais </div></Link>
             </article>
             <article className={styles.card}>
                 <VideoocurseIcon className={styles.icon}></VideoocurseIcon>
-                <h5 className={styles.service__name}>Video Curso</h5>
+                <h3 className={styles.service__name}>Video Curso</h3>
                 <Link href="/services#courses"><div className={styles.more}> Veja Mais </div></Link>
             </article>
             <article className={styles.card}>
                 <ClassesIcon className={styles.icon}></ClassesIcon>
-                <h5 className={styles.service__name}>Leitura e Interpretação</h5>
+                <h3 className={styles.service__name}>Leitura e Interpretação</h3>
                 <Link href="/services#reading"><div className={styles.more}> Veja Mais </div></Link>
             </article>
             <article className={styles.card}>
                 <SelfknoledgeIcon className={styles.icon}></SelfknoledgeIcon>
-                <h5 className={styles.service__name}>Autoconhecimento</h5>
+                <h3 className={styles.service__name}>Autoconhecimento</h3>
                 <Link href="/services#selfknowledge"><div className={styles.more}> Veja Mais </div></Link>
             </article>
         </div>

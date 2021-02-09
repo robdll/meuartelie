@@ -4,7 +4,8 @@
   align-items: center;
   color: $primary-font-color;
   background-size: cover;
-  padding: 15% 10% 0 10%;
+  padding: 15% 10% 15% 10%;
+  background-position: right;
   background-image:  url("/png/snow.png");
 }
 
@@ -74,7 +75,7 @@
 
 @media screen and (min-width: 769px) {
   .testimonial {
-    padding: 10% 10% 0 10%;
+    padding: 10% 10% 10% 10%;
   }
   .testimonial__card {
     margin-top: 10%;

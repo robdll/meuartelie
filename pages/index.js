@@ -16,7 +16,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      {/* TODO add <Instagram></Instagram> */}
       <Navbar></Navbar>
       <Header></Header>
       <About></About>
@@ -24,6 +23,7 @@ export default function Home() {
       <Services></Services>
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
+      {/* TODO add <Instagram></Instagram> */}
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores
