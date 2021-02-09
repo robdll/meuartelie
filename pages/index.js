@@ -16,6 +16,8 @@ export default function Home(props) {
         <title>Meuartelie </title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* TODO EDIT DESCRIPTION */}
+        <meta name="description" content="MeuArtelie a mandala world" />
       </Head>
       <Navbar></Navbar>
       <Header></Header>
