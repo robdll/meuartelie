@@ -7,8 +7,9 @@ import Services from './components/Services'
 import Testimonial from './components/Testimonial'
 import Subscribe from './components/Subscribe'
 import Footer from './components/Footer'
+import InstagramFeed from './components/InstagramFeed'
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div>
       <Head>
@@ -23,7 +24,7 @@ export default function Home() {
       <Services></Services>
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
-      {/* TODO add <Instagram></Instagram> */}
+      <InstagramFeed feed={props.data}></InstagramFeed>
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores
@@ -32,4 +33,10 @@ export default function Home() {
       </div>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  const res = await fetch(`https://v1.nocodeapi.com/meuartelie/instagram/jXuHsEtPDAnjfZZp?limit=5`)
+  const data = await res.json()
+  return { props: {data} }
 }
