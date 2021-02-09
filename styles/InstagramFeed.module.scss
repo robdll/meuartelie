@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.instagram {
+  height: auto;
+  align-items: center;
+  color: $primary-font-color;
+  background-size: cover;
+  padding: 15% 10% 10% 10%;
+}
+
+.separator {
+  margin-bottom: 1rem;
+}
+
+.photo__card {
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.photo__container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
