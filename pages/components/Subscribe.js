@@ -20,9 +20,9 @@ function Subscribe (_) {
             body: JSON.stringify(body)
         });
         if(response.ok) {
-            setSubscribed("Subscribed");
+            setSubscribed("Prontinho, agora acesse seu email!");
         } else {
-            setSubscribed("err");
+            setSubscribed("Este E-mail já foi cadastrado");
         }
 
     }
