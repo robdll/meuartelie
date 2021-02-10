@@ -23,8 +23,8 @@ const Testimonial = _ => (
                 />
             </div>
             <p className={styles.testimonial__copy}>O meu despertar da consciência foi um processo guiado pela Cintya Flores. Desenhar mandalas e compreender sua simbologia foi determinante neste processo</p>
-            <h4 className={styles.testimonial__name}>Tânia Dantas</h4>
-            <h5 className={styles.testimonial__city}>Bahia, Brasil</h5>
+            <span className={styles.testimonial__name}>Tânia Dantas</span>
+            <span className={styles.testimonial__city}>Bahia, Brasil</span>
         </article>
         <Dots></Dots>
 
