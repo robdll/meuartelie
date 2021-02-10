@@ -19,10 +19,10 @@ function ServicesHeader()  {
             <h2 className={`title ${styles.service__title}`}>Meus Serviços</h2>
             <div className={styles.service_link__container}> 
                 <div className={styles.marker} style={{left: `${offset}px`, width: `${width}px`, }} ></div>
-                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#art">Art </Link></span>  
-                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#selfknowledge">Autoconhecimento</Link></span>    
-                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#courses">Video</Link></span> 
-                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#reading">Leitura</Link></span>   
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#art">Arte </Link></span>  
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#courses">Video Aulas</Link></span> 
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#reading">Consulta</Link></span>   
+                <span className={styles.link} onMouseEnter={handleHover}><Link href="/services#workshop">Workshop</Link></span>    
             </div>
         </div>
     );

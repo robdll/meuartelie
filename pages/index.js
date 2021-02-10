@@ -13,9 +13,11 @@ export default function Home(props) {
   return (
     <div>
       <Head>
+         <html lang="pt" />
         <title>Meuartelie </title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Descubra as mandalas e seus significados. Aprenda a desegnar, colorir e manifestar." />
       </Head>
       <Navbar></Navbar>
       <Header></Header>
@@ -24,7 +26,7 @@ export default function Home(props) {
       <Services></Services>
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
-      <InstagramFeed feed={props.data}></InstagramFeed>
+      <InstagramFeed></InstagramFeed>
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores
@@ -33,10 +35,4 @@ export default function Home(props) {
       </div>
     </div>
   )
-}
-
-export async function getServerSideProps() {
-  const res = await fetch(`https://v1.nocodeapi.com/meuartelie/instagram/jXuHsEtPDAnjfZZp?limit=5`)
-  const data = await res.json()
-  return { props: {data} }
 }

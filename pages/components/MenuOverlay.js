@@ -7,8 +7,8 @@ const Menu = (props) => (
     <div className={`${styles.menu__content}`}>
       <ul className={`${styles.menu__list}`}>
         <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/"><span>Home</span></Link></li>
-        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services"><span>Services</span></Link></li>
-        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services#contact"><span>Contact</span></Link></li>
+        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services"><span>Serviços</span></Link></li>
+        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services#contact"><span>Contatos</span></Link></li>
       </ul>
     </div>
   </div>

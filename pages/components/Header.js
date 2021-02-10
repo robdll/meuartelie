@@ -18,9 +18,9 @@ const Header = _ => (
             height={300}
         />
         <h1 className={styles.title}>Meu Arteliê</h1>
-        <h2 className={styles.subtitle}>Cocriando uma versão melhor de Gaia Para curar problemas psicológicos, emocionais e até físicos.</h2>
+        <h2 className={styles.subtitle}>Cocriando uma versão melhor de Gaia através da energia das mandalas.</h2>
         <Link href="#services">
-            <div className={"btn"}>Explorar Servicos</div>
+            <div className={"btn"}>Ver Servicos</div>
         </Link>
     </div>
 

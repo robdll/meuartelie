@@ -23,7 +23,7 @@ const Footer = _ => (
                 <li> <Link href="/services#art"><span>Mandala Art</span></Link></li>
                 <li> <Link href="/services#courses"><span>Video Aula</span></Link></li>
                 <li> <Link href="/services#reading"><span>Leitura Mandala</span></Link></li>
-                <li> <Link href="/services#selfknowledge"><span>Autoconhecimento</span></Link></li>
+                <li> <Link href="/services#workshop"><span>Autoconhecimento</span></Link></li>
             </ul>
         </div>
         <span className={styles.footer__list_title} >Contactame</span>

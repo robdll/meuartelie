@@ -34,3 +34,10 @@ const InstagramFeed = props => {
 }
 
 export default InstagramFeed;
+
+
+export async function getServerSideProps() {
+  const res = await fetch(`https://v1.nocodeapi.com/meuartelie/instagram/jXuHsEtPDAnjfZZp?limit=5`)
+  const data = await res.json()
+  return { props: {data} }
+}

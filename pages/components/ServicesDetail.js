@@ -31,7 +31,7 @@ const ServicesDetail = _ => (
         </section>
 
         <section id="courses" className={`section ${styles.details}`} >
-            <h3 className={`title ${styles.title}`}>Video Aula</h3>
+            <h3 className={`title ${styles.title}`}>Video Aulas</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.image__container}>
                 <Image
@@ -53,7 +53,7 @@ const ServicesDetail = _ => (
         </section>
 
         <section id="reading" className={`section ${styles.details}`}>
-            <h3 className={`title ${styles.title}`}>Leitura e Interpretação</h3>
+            <h3 className={`title ${styles.title}`}>Consulta</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.image__container}>
                 <Image
@@ -74,8 +74,8 @@ const ServicesDetail = _ => (
             <div className={`btn ${styles.spacer}`}>Compre Agora</div>
         </section>
 
-        <section id="selfknowledge" className={`section ${styles.details}`}>
-            <h3 className={`title ${styles.title}`}>Autoconhecimento</h3>
+        <section id="workshop" className={`section ${styles.details}`}>
+            <h3 className={`title ${styles.title}`}>Workshop</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.image__container}>
                 <Image
