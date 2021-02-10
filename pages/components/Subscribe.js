@@ -42,6 +42,7 @@ function Subscribe (_) {
             <p className={styles.subscribe__copy}>Aproveite esta mandala prontinha para imprimir e deixe este portal iluminar sua casa! As intenções desta mandala são equilíbrio, cura e sabedoria!</p>
             
             <form className={`${styles.form}`} onSubmit={subbing}>
+                <label className={`${styles.label}`} for="sub_email">Email</label>
                 <input id="sub_email" type="email" autoComplete="email" className={styles.subscribe__input} placeholder="Insira o endereço de e-mail" required/>
                 { subscribedMsg ? <span className={styles.subscribe__response}>{subscribedMsg}</span> : ''}
                 <button type="submit" className={`btn ${styles.btn}`}>Subscreva</button>
