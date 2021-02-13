@@ -11,17 +11,23 @@ const Header = _ => (
          * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-sizes
          * also original image size 936 * 900 ~900kb
         */}
-        <Image
-            src="/png/mandalabothlayer.png"
-            alt="Author's Mandala art"
-            width={312}
-            height={300}
-        />
-        <h1 className={styles.title}>Meu Arteliê</h1>
-        <h2 className={styles.subtitle}>Cocriando uma versão melhor de Gaia através da energia das mandalas.</h2>
-        <Link href="#services">
-            <div className={"btn"}>Ver Servicos</div>
-        </Link>
+        <div className={styles.image__container}>
+            <Image
+                src="/png/mandalabothlayer.webp"
+                alt="Author's Mandala art"
+                width={936}
+                height={900}
+                layout="responsive"
+                priority="true"
+            />
+        </div>
+        <div className={styles.info__container}>
+            <h1 className={styles.title}>Meu Arteliê</h1>
+            <h2 className={styles.subtitle}>Cocriando uma versão melhor de Gaia através da energia das mandalas.</h2>
+            <Link href="#services">
+                <div className={`btn ${styles.btn}`}>Ver Servicos</div>
+            </Link>
+        </div>
     </div>
 
 );

@@ -9,6 +9,7 @@
   align-items: center;
   padding: 5% 5% 0 5%;
   z-index: 5;
+  max-width: 950px;
 }
 
 .menu__container {
@@ -20,7 +21,7 @@
   width: 100vw;
   height: 300px;
   z-index: -1;
-  background-image:  url("../public/png/welcome_mobile.png");
+  background-image:  url("../public/png/welcome_mobile.webp");
   background-size: 100% 100%;
   overflow: hidden;
   transition: all 1s ease-in-out;;
@@ -146,7 +147,7 @@
     width: 25%;
   }
   .menu__container {
-    background-image:  url("/png/welcome_bg.png");
+    background-image:  url("/png/welcome_bg.webp");
   }
   .menu__content {
     margin-top: 10%;
@@ -161,3 +162,18 @@
     margin-top: 5%;
   }
 }
+
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 950px;
+    right: 0;
+    left: 0;
+    top: 30px;
+  }
+}
+

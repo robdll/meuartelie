@@ -1,10 +1,24 @@
 @import './variables.scss';
 
 .header {
-  background-image:  url("/png/welcome_mobile.png");
+  background-image:  url("/png/welcome_mobile.webp");
   background-size: cover;
   padding-top: 5%;
   padding-bottom: 10%;
+}
+
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image__container {
+  width: 100%;
+  height: 100%;
 }
 
 .title {
@@ -29,7 +43,7 @@
 .service {
   padding-top: 20%;
   padding-bottom: 15%;
-  background-image:  url("/png/welcome_mobile.png");
+  background-image:  url("/png/welcome_mobile.webp");
   min-height: 40vh;
   height: 40vh;
   display: flex;
@@ -79,7 +93,7 @@
     padding-top: 70px;
   }
   .service, .header {
-    background-image:  url("/png/welcome_bg.png");
+    background-image:  url("/png/welcome_bg.webp");
   }
   .subtitle {
     font-size: 1rem;
@@ -94,4 +108,48 @@
   }
 
 }
+
+@media screen and (min-width: 1024px) {
+  .header {
+    background-image:  url("/png/welcome_bg.webp");
+    background-size: cover;
+    background-position-y: 0;
+    display: grid;
+    grid-template: 500px/auto repeat(5, 190px) auto;
+    padding-top: 5%;
+    margin: auto;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .subtitle {
+    line-height: 1.5rem;
+    margin: 0px;
+    text-align: left;
+    margin: 0 0 2rem 0;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-family: 'Lora';
+    margin: 0;
+    text-align: center;
+    max-width: 150px;
+  }
+
+  .image__container {
+    grid-column: 4/7;
+    grid-row: 1;
+  }
+
+  .info__container {
+    grid-column: 2/4;
+    grid-row: 1;
+    align-items: flex-start;
+  }
+
+}
+
+
 
