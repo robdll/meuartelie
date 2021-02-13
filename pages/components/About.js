@@ -11,11 +11,11 @@ const About = _ => (
             <Image
                 src="/png/sobremim.webp"
                 alt="Cintya Flores"
-                width={312}
-                height={300}
+                width={482}
+                height={421}
             />
             </div>
-        <h2 className={`title`}>Sobre Mim </h2>
+        <h2 className={`title ${styles.title}`}>Sobre Mim </h2>
         <span className={`separator ${styles.separator}`}> </span>
          
         <p className={`paragraph ${styles.paragraph}`}>
@@ -28,7 +28,7 @@ const About = _ => (
             Espero que gostem!
         </p>
         <br />
-        <Sign></Sign>
+        <Sign className={`${styles.svg}`}></Sign>
         <p className={`paragraph ${styles.paragraph}`}>Empreendedora, Treinadora, Facilitadora</p>
     </div>
 );
