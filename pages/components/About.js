@@ -9,7 +9,7 @@ const About = _ => (
     <div id="about" className={`section ${styles.about}`}>
         <div className={styles.image__container}>
             <Image
-                src="/png/sobremim.png"
+                src="/png/sobremim.webp"
                 alt="Cintya Flores"
                 width={312}
                 height={300}

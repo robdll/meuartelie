@@ -16,7 +16,7 @@ const Testimonial = _ => (
             <div className={styles.testimonial__photo_container}>
                 <Image
                     className={styles.testimonial__photo}
-                    src="/png/testimonial_tania.png"
+                    src="/png/testimonial_tania.webp"
                     alt="Testimonial"
                     width={312}
                     height={300}
