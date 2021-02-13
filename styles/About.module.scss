@@ -50,7 +50,7 @@
   .image__container {
     max-width: 482px;
     align-self: center;
-    justify-self: center;
+    justify-self: flex-start;
     grid-column: 2/5;
     grid-row: 1 / 7;
   }
