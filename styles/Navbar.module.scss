@@ -14,8 +14,7 @@
 
 .menu__container {
   font-family: 'Jokerman Std';
-  position: absolute;
-  /* TODO FIX top pos */
+  position: fixed;
   top: -400px;
   left: 0;
   width: 100vw;
