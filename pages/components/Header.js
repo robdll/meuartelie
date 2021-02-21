@@ -15,8 +15,8 @@ const Header = _ => (
             <Image
                 src="/png/mandalabothlayer.webp"
                 alt="Author's Mandala art"
-                width={936}
-                height={900}
+                width={810}
+                height={810}
                 layout="responsive"
                 priority="true"
             />
