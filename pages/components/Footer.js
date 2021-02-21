@@ -2,7 +2,7 @@ import React from "react";
 import styles from '../../styles/Footer.module.scss'
 import EmailIcon from "../../public/svg/email_icon.svg";
 import PhoneIcon from "../../public/svg/phone_icon.svg";
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Footer = _ => (
     <div className={`section ${styles.footer}`}>
