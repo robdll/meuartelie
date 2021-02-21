@@ -33,10 +33,10 @@ function Subscribe (_) {
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.subscribe__photo}>
                 <Image
-                    src="/png/subscribe.png"
+                    src="/png/subscribe.webp"
                     alt="gift mandala"
-                    width={120}
-                    height={243}
+                    width={328}
+                    height={667}
                 />
             </div>
             <p className={styles.subscribe__copy}>Aproveite esta mandala prontinha para imprimir e deixe este portal iluminar sua casa! As intenções desta mandala são equilíbrio, cura e sabedoria!</p>
