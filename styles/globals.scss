@@ -40,6 +40,7 @@ a:link, a:visited,  a:active {
     padding: 15px 45px;
     border-radius: 25px;
     font-weight: bold;
+    transition: background-color .8s;
 }
 
 
@@ -48,6 +49,7 @@ a:link, a:visited,  a:active {
     background-color: #fff;
     color: $base-color;
     font-weight: bold;
+    box-shadow: inset 0px 0px 5px 3px rgb(143 52 235 / 25%);
 }
 
 .section {
