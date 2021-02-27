@@ -10,7 +10,7 @@ function Navbar() {
  
   return (
     <div className={styles.navbar}>
-        <span className={styles.footer__logo}><Link href="/">Meu Arteliê</Link></span>
+        <span className={styles.logo}><Link href="/">Meu Arteliê</Link></span>
         <div className={`${styles.menu_btn} ${menu ? styles.open : ''}`} onClick={toggleMenu}>
           <div className={styles.menu_btn__burger}></div>
         </div>
