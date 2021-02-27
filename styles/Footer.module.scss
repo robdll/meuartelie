@@ -110,3 +110,10 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-right: calc(50% - 475px);
+    padding-left: calc(50% - 475px);
+  }
+}
+
