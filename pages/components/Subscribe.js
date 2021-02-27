@@ -29,7 +29,7 @@ function Subscribe (_) {
 
     return (
         <div id="subscribe" className={`section ${styles.subscribe}`}>
-            <h2 className={`title`}>Inscreva-se</h2>
+            <h2 className={`title ${styles.subscribe__title}`}>Inscreva-se</h2>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.subscribe__photo}>
                 <Image
