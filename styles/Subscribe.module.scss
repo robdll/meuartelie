@@ -115,6 +115,7 @@
   }
   .subscribe__photo {
     grid-column: 2 / 3;
+    justify-self: flex-start;
   }
   .subscribe__copy {
     grid-row: 3 / 4;

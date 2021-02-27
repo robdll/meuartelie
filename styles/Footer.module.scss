@@ -33,6 +33,7 @@
 
 
 .footer__icon {
+  cursor: pointer;
   background: white;
   padding: 10px;
   width: 30px;    
@@ -66,6 +67,14 @@
   margin: 0px;
   margin-bottom: 20px;
   font-size: 1rem;
+}
+
+.footer__list > li{
+  cursor: pointer;
+}
+
+.footer__list > li:hover {
+  font-weight: bold;
 }
 
 .flex {
