@@ -23,3 +23,25 @@
   flex-direction: row;
   overflow: hidden;
 }
+
+@media screen and (min-width: 769px) {
+  .instagram {
+    padding: 5% 10% 5% 10%;
+  }
+  .photo__container {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo__container {
+    max-width: 950px;
+  }
+  .photo__container > :first-child {
+    margin-left: 0px;
+  }
+  .photo__container > :last-child {
+    margin-right: 0px;
+  }
+  
+}

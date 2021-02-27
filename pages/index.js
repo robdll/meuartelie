@@ -18,7 +18,7 @@ export default function Home(props) {
       <Services></Services>
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
-      <InstagramFeed></InstagramFeed>
+      <InstagramFeed feed={props.data}></InstagramFeed>
       <Footer></Footer>
       <div className="footer__rights"> 
         Todos os direitos reservados por Cintya Flores
@@ -27,4 +27,11 @@ export default function Home(props) {
       </div>
     </div>
   )
+}
+
+
+export async function getServerSideProps() {
+  const res = await fetch(`https://v1.nocodeapi.com/meuartelie/instagram/jXuHsEtPDAnjfZZp?limit=15`);
+  const data = await res.json()
+  return { props: {data} }
 }
