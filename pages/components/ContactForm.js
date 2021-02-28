@@ -16,7 +16,9 @@ const ContactForm = _ => {
     const submitContactForm = async function (event) {
         event.preventDefault();
         const body = {
-            contactName, contactEmail, contactMessage
+            name: contactName, 
+            email: contactEmail, 
+            text: contactMessage
         }
         const response = await fetch(`/api/contact`, {
             method: "post",
