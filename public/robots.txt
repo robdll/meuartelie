@@ -1,0 +1,5 @@
+Sitemap: https://meuartelie.com/sitemap.xml
+
+User-agent: *
+Allow: /*
+Disallow: /api/*
