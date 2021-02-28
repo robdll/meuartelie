@@ -26,8 +26,19 @@
     .contactform {
         padding-top: 5%;
     }
-
     .subscribe__input {
         margin: 4% 5% 4% 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contactform {
+        padding-bottom: 6%;
+    }
+    .subscribe__input {
+        margin: 1.5rem;
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 1rem;
     }
 }
