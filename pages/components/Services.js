@@ -7,7 +7,6 @@ import SelfknoledgeIcon from "../../public/svg/selfknoledge_icon.svg";
 import Link from 'next/link'
 
 
-//* TODO: add animation underline similar to https://www.youtube.com/watch?v=KwoSm0E8MOE&t=47s&ab_channel=CodingNepal */
 const Services = _ => (
     <div id="services" className={`section ${styles.services}`}>
         <h2 className={`title`}> Meus Serviços</h2>

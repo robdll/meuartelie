@@ -7,10 +7,6 @@ import Link from 'next/link'
 
 const Header = _ => (
     <div className={`section ${styles.header}`}>
-        {/** TODO fix responsive sizes
-         * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-sizes
-         * also original image size 936 * 900 ~900kb
-        */}
         <div className={styles.image__container}>
             <Image
                 src="/png/mandalabothlayer.webp"

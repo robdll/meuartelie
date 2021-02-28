@@ -6,13 +6,11 @@ import Image from 'next/image'
 import Dots from "../../public/svg/3dots.svg";
 
 
-/** TODO  apply transition https://codepen.io/murphyg/pen/qBWpLda */
 const Testimonial = _ => (
     <div id="customers" className={`section ${styles.testimonial}`}>
         <h2 className={`title ${styles.title}`}>Clientes Felizes</h2>
         <span className={"separator"}> </span>
         <article className={styles.testimonial__card}>
-            {/** TODO: use responsive layout */}
             <div className={styles.testimonial__photo_container}>
                 <Image
                     className={styles.testimonial__photo}
