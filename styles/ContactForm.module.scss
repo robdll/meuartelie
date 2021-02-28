@@ -18,8 +18,14 @@
     max-width: 400px;
 }
 
+.subscribe__input:focus {
+    box-shadow: 4px 8px 25px 5px rgb(143 52 235 / 35%);
+    outline-style: none;
+}
+
 .btn {
     margin-top: 1rem;
+    border: none;
 }
   
 @media screen and (min-width: 376px) {
