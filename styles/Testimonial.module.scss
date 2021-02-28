@@ -9,11 +9,17 @@
   background-image:  url("/png/snow.webp");
 }
 
+.carousel {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 750px;
+}
+
 .testimonial__card {
   display: flex;
   flex-direction: column;
-  margin-top: 20%;
-  margin-bottom: 10%;
+  align-items: center;
+  margin: 0px auto;
   background: #fff;
   border-radius: 5px;
   padding: 10% 15%;
@@ -55,8 +61,7 @@
 }
 
 .testimonial__photo_container {
-  width: 50%;
-  margin: -30% auto 0 auto;
+  max-width: 100px;
 }
 
 .title {
@@ -64,10 +69,6 @@
 }
 
 @media screen and (min-width: 376px) {
-  .testimonial__photo_container {
-    max-width: 100px;
-    margin-top: -20%;
-  }
   .testimonial__card {
     padding: 5% 10%;
   }
@@ -81,5 +82,11 @@
     margin-top: 10%;
     max-width: 65%;
   }
+  
+}
 
+@media screen and (min-width: 1024px) {
+  .carousel {
+    height: 450px;
+  }
 }
