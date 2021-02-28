@@ -73,10 +73,6 @@ const ServicesDetail = _ => (
             <p className={`paragraph ${styles.paragraph}`}>
                 Se você já desenha por encomenda, ou para presentear as pessoas, essa é uma oportunidade de valorizar sua arte, porque forneço uma descrição aprofundada das energias da mandala, levando em consideração as cores, formas, geometrias, números e sua disposição na mandala. Utilizo conhecimentos da numerologia, geometria sagrada, Yin e Yang e Feng Shui para construir um relatório completo para você! Com este relatório você poderá enviar junto com a mandala a descrição das energias que ela manifesta, fazendo uma interpretação pessoal de como aquele relatório dialoga com a vida da pessoa a quem a mandala se destina. Este relatório será um guia, mas sua intuição, no final, é quem faz o maior trabalho!
             </p>
-            <br />
-            <p className={`paragraph ${styles.paragraph}`}>
-                Se você já desenha por encomenda, ou para presentear as pessoas, essa é uma oportunidade de valorizar sua arte, porque forneço uma descrição aprofundada das energias da mandala, levando em consideração as cores, formas, geometrias, números e sua disposição na mandala. Utilizo conhecimentos da numerologia, geometria sagrada, Yin e Yang e Feng Shui para construir um relatório completo para você! Com este relatório você poderá enviar junto com a mandala a descrição das energias que ela manifesta, fazendo uma interpretação pessoal de como aquele relatório dialoga com a vida da pessoa a quem a mandala se destina. Este relatório será um guia, mas sua intuição, no final, é quem faz o maior trabalho!
-            </p>
             <div className={`btn ${styles.spacer}`}>Adquira já!</div>
         </section>
 
@@ -99,10 +95,10 @@ const ServicesDetail = _ => (
                 <li>Numerologia e mandala´</li>
                 <li>Geometria Sagrada e física quântica</li>
                 <li>Cores na Mandala</li>
-                <li> - para teoria das cores </li>
-                <li> - para a fraternidade branca </li>
-                <li> - para tradição chinesa </li>
-                <li> - em conexão com os chakras </li>
+                <span> - para teoria das cores </span> <br />
+                <span> - para a fraternidade branca </span> <br />
+                <span> - para tradição chinesa </span> <br />
+                <span> - em conexão com os chakras </span>
             </ul>
             <p className={`paragraph ${styles.paragraph}`}>
                 Estes eventos incluem apostila, vídeo extra promocional (técnica de desenho relacionada à temática), e acompanhamento da aprendizagem por whatsapp.    
