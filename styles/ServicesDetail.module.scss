@@ -7,9 +7,14 @@
   align-items: flex-start;
 }
 
+.info__container {
+  display: flex;
+  flex-direction: column;
+}
 
 .spacer {
   margin-top: 1.5rem;
+  align-self: flex-start;
 }
 
 .separator {
@@ -35,5 +40,29 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
 
+  .details {
+    padding: 5% 0;
+    display: grid;
+    grid-template-columns: auto 475px 475px auto;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .title, .separator, .info__container {
+    grid-column: 3 / 4;
+  }  
+
+  .separator {
+    margin: 0;
+    justify-self: center;
+  }
+
+    .image__container {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    align-self: center;
+  }
+
+}
 
