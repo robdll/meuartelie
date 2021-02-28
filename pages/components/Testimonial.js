@@ -29,9 +29,8 @@ const Testimonial = _ => {
 
             <Carousel
                 className={styles.carousel}
-                autoPlay={true}
+                autoPlay={false}
                 stopAutoPlayOnHover={true}
-                interval={5000}
                 animation={"slide"}
                 swipe={true}
                 navButtonsAlwaysVisible={false}
