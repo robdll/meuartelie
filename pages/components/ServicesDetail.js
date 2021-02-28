@@ -34,7 +34,7 @@ const ServicesDetail = _ => (
             </div>
         </section>
 
-        <section id="courses" className={`section ${styles.details}`} >
+        <section id="courses" className={`section ${styles.details} ${styles.mirror}`} >
             <h3 className={`title ${styles.title}`}>Video Aulas</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.image__container}>
@@ -83,7 +83,7 @@ const ServicesDetail = _ => (
             </div>
         </section>
 
-        <section id="workshop" className={`section ${styles.details}`}>
+        <section id="workshop" className={`section ${styles.details} ${styles.mirror}`}>
             <h3 className={`title ${styles.title}`}>Workshop</h3>
             <span className={`separator ${styles.separator}`}> </span>
             <div className={styles.image__container}>

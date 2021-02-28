@@ -53,15 +53,22 @@
     grid-column: 3 / 4;
   }  
 
+  .mirror > .title, .mirror > .separator, .mirror >.info__container {
+    grid-column: 2 / 3;
+  }
   .separator {
     margin: 0;
     justify-self: center;
   }
 
-    .image__container {
+  .image__container {
     grid-column: 2 / 3;
     grid-row: 1 / -1;
     align-self: center;
+  }
+
+  .mirror > .image__container {
+    grid-column: 3 / 4;
   }
 
 }
