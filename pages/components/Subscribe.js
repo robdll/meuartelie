@@ -10,7 +10,7 @@ function Subscribe (_) {
         setSubscribed(undefined);
         e.preventDefault() 
         const body = {
-            email_address: event.target.sub_email.value,
+            email_address: e.target.sub_email.value,
         }
         const response = await fetch(`/api/subscribe`, {
             method: "post",
