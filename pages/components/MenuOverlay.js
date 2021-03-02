@@ -1,6 +1,5 @@
 
 import styles from '../../styles/Navbar.module.scss'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Menu = (props) => {

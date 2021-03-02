@@ -148,8 +148,7 @@
 
 @media screen and (min-width: 376px) {
   .menu__list {
-    max-width: 325px;
-    width: 25%;
+    max-width: 225px;
   }
   .menu__container {
     background-image:  url("/png/welcome_bg.webp");
@@ -172,6 +171,9 @@
 @media screen and (min-width: 1024px) {
   .menu__content {
     margin-top: 2%;
+  }
+  .menu__list {
+    max-width: 275px;
   }
   .navbar {
     max-width: 950px;
