@@ -1,19 +1,30 @@
 
 import styles from '../../styles/Navbar.module.scss'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-const Menu = (props) => (
-  <div key='1' className={ props.toggle ? `${styles.menu__container} ${styles.toggle}` : `${styles.menu__container}` }>
-    <div className={`${styles.menu__content}`}>
-      <ul className={`${styles.menu__list}`}>
-        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/"><span>Home</span></Link></li>
-        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services"><span>Serviços</span></Link></li>
-        <li className={`${styles.menu__item}`} onClick={props.toggleMenu}> <Link href="/services#contact"><span>Contatos</span></Link></li>
-      </ul>
+const Menu = (props) => {
+  const router = useRouter();
+
+  const goTo = (destination) => {
+    let options = { 
+      shallow: router.pathname.includes('contact')
+    }
+    router.push(destination, undefined, options)
+    props.toggleMenu(!props.toggle);
+  }
+  
+  return (
+    <div key='1' className={ props.toggle ? `${styles.menu__container} ${styles.toggle}` : `${styles.menu__container}` }>
+      <div className={`${styles.menu__content}`}>
+        <ul className={`${styles.menu__list}`}>
+          <li className={`${styles.menu__item}`} onClick={ () => goTo('/')}><span>Home</span></li>
+          <li className={`${styles.menu__item}`} onClick={ () => goTo('/services')}><span>Serviços</span></li>
+          <li className={`${styles.menu__item}`} onClick={ () => goTo('/services#contact')}><span>Contatos</span></li>
+        </ul>
+      </div>
     </div>
-  </div>
-);
+  )
+};
 
 export default Menu;
-
-
