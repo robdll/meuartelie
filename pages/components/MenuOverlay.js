@@ -9,7 +9,7 @@ const Menu = (props) => {
     let options = { 
       shallow: router.pathname.includes('contact')
     }
-    router.push(destination, undefined, options)
+    router.push(destination, undefined, options).then(() => window.scrollTo(0, 0));
     props.toggleMenu(!props.toggle);
   }
   
