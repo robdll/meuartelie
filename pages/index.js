@@ -30,7 +30,7 @@ export default function Home(props) {
 }
 
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(`https://v1.nocodeapi.com/meuartelie/instagram/jXuHsEtPDAnjfZZp?limit=15`);
   const data = await res.json()
   return { props: {data} }
