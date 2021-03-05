@@ -14,7 +14,8 @@
 
 .logo {
   cursor: pointer;
-  width: 100px;
+  width: 45px;
+  padding: 2px;
 }
 
 .menu__container {
@@ -168,7 +169,8 @@
     margin-top: 5%;
   }
   .logo {
-    width: 150px;
+    width: 45px;
+    padding: 0;
   }
   .menu_btn {
     align-self: center;
