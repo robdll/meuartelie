@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
-import styles from '../../styles/Navbar.module.scss';
-import Menu from './MenuOverlay';
-import Link from 'next/link';
+import styles from "../../styles/Navbar.module.scss";
+import Menu from "./MenuOverlay";
+import Link from "next/link";
 import Logo from "../../public/svg/Logo.svg";
 
 function Navbar() {
@@ -11,12 +10,19 @@ function Navbar() {
 
   return (
     <div className={styles.navbar}>
-        <span className={styles.logo}><Link href="/"><Logo  /></Link></span>
-        <div className={`${styles.menu_btn} ${menu ? styles.open : ''}`} onClick={toggleMenu}>
-          <div className={styles.menu_btn__burger}></div>
-        </div>
-        <Menu toggle={menu} toggleMenu={setToggle}></Menu>
+      <Link href='/'>
+        <span className={styles.logo}>
+          <Logo />
+        </span>
+      </Link>
+      <div
+        className={`${styles.menu_btn} ${menu ? styles.open : ""}`}
+        onClick={toggleMenu}
+      >
+        <div className={styles.menu_btn__burger}></div>
       </div>
+      <Menu toggle={menu} toggleMenu={setToggle}></Menu>
+    </div>
   );
 }
 
