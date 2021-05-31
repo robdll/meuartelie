@@ -7,6 +7,12 @@ const Project = (_) => (
     <h2 className={`title ${styles.title}`}>Sobre o Projeto MeuArtelie</h2>
     <span className={`separator ${styles.separator}`}> </span>
     <ReactPlayer
+      style={{
+        maxWidth: "800px",
+        margin: " 0 auto 0 auto",
+        overflow: "hidden",
+        borderRadius: "30px",
+      }}
       url='https://www.youtube.com/watch?v=lME8_9iRQPA'
       controls={true}
       width='100%'
