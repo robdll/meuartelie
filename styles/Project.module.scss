@@ -1,6 +1,9 @@
 @import './variables.scss';
 
 .project {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr;
   align-items: flex-start;
   color: $primary-font-color;
   background-size: cover;
@@ -25,9 +28,16 @@
   }
 }
 
+@media screen and (min-width: 550px) {
+  .project {
+    min-height: 700px;
+    // padding: 5% 10%;
+  }
+}
+
 @media screen and (min-width: 769px) {
   .project {
-    padding: 10%;
+    padding: 5% 10%;
   }
   .separator {
     margin: 20px auto 30px auto;
