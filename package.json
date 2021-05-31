@@ -20,6 +20,7 @@
     "react-dom": "17.0.1",
     "react-instagram-authless-feed": "jamesmoriarty/react-instagram-authless-feed#v1.1.1",
     "react-material-ui-carousel": "^2.2.1",
+    "react-player": "^2.9.0",
     "sass": "^1.32.2"
   },
   "devDependencies": {
