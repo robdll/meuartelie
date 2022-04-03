@@ -6,9 +6,8 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
-import InstagramFeed from "./components/InstagramFeed";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <div>
       <Navbar></Navbar>
@@ -18,7 +17,6 @@ export default function Home(props) {
       <Services></Services>
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
-      <InstagramFeed feed={props.data}></InstagramFeed>
       <Footer></Footer>
       <div className='footer__rights'>
         Todos os direitos reservados por Cintya Flores
@@ -27,12 +25,4 @@ export default function Home(props) {
       </div>
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const res = await fetch(
-    `https://v1.nocodeapi.com/meuartelie/instagram/VtoUxwsVdfmtqtGs?limit=15`
-  );
-  const data = await res.json();
-  return { props: { data } };
 }
