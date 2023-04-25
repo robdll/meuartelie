@@ -1,10 +1,10 @@
 @import './variables.scss';
 
 .header {
-  background-image:  url("/png/welcome_mobile.webp");
+  background-image:  url("/png/welcome_bg.webp");
   background-size: cover;
   padding-top: 5%;
-  padding-bottom: 10%;
+  height: 100vh;
 }
 
 
@@ -18,9 +18,10 @@
 
 .image__container {
   width: 100%;
-  height: 100%;
   max-width: 570px;
 }
+
+
 
 .title {
   font-family: 'Jokerman';
@@ -83,18 +84,28 @@
   .service {
     padding-top: 10%;
   }
+  .service, .header {
+    background-image:  url("/png/welcome_bg.webp");
+    background-position: 35%;
+  }
   .btn {
     margin-bottom: 2rem;
   }
 }
 
+@media screen and (min-width: 425px) {
+  .image__container {
+    width: 80%;
+  }
+}
 
-@media screen and (min-width: 769px) {
+
+@media screen and (min-width: 768px) {
+  .image__container {
+    width: 45%;
+  }
   .service {
     padding-top: 70px;
-  }
-  .service, .header {
-    background-image:  url("/png/welcome_bg.webp");
   }
   .subtitle {
     font-size: 1rem;
@@ -111,11 +122,13 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .image__container {
+    width: 100%;
+  }
   .header {
-    background-image:  url("/png/welcome_bg.webp");
     background-size: cover;
     display: grid;
-    grid-template: 500px/auto repeat(5, 190px) auto;
+    grid-template: 80%/auto repeat(2, 425px) auto;
     padding-top: 5%;
     margin: auto;
   }
@@ -139,17 +152,37 @@
   }
 
   .image__container {
-    grid-column: 4/7;
+    grid-column: 3/4;
     grid-row: 1;
     justify-self: center;
   }
 
   .info__container {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1;
     align-items: flex-start;
   }
 
+}
+
+
+
+
+@media screen and (min-width: 1440px) {
+  .header {
+    grid-template: 80%/auto repeat(5, 240px) auto;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .info__container {
+    grid-column: 2/4;
+    grid-row: 1;
+  }
+  .image__container {
+    grid-column: 4/7;
+    grid-row: 1;
+  }
 }
 
 
