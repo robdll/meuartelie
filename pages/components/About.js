@@ -27,7 +27,6 @@ const About = _ => (
             Vinda de uma trajetória acadêmica, com 20 anos de experiência em sala de aula, decidi, usar essa capacidade didática para ser uma facilitadora a fim de te apresentar um caminho de conexão entre você e seu Eu Superior!
             Espero que gostem!
         </p>
-        <br />
         <Sign className={`${styles.svg}`}></Sign>
         <p className={`paragraph ${styles.paragraph}`}>Empreendedora, Treinadora, Facilitadora</p>
     </div>
