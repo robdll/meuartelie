@@ -49,7 +49,7 @@ const Footer = _ => (
                 <EmailIcon></EmailIcon> <Link href="/services#contact"> cintya@meuartelie.com </Link>
             </li>
             <li className={`${styles.flex} ${styles.phone}`}> 
-                <PhoneIcon></PhoneIcon> +351 910077277
+                <PhoneIcon></PhoneIcon> +339 3513800037
              </li>
         </ul>
     </div>

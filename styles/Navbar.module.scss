@@ -31,7 +31,7 @@
   background-image:  url("../public/png/welcome_mobile.webp");
   background-size: 100% 100%;
   overflow: hidden;
-  transition: all 1s ease-in-out;;
+  transition: top 1s ease-in-out;;
 }
 
 .menu__content {
@@ -44,7 +44,7 @@
 
 .menu__container.toggle {
   top: 0;
-  transition: all  1s ease-in-out;;
+  transition: top  1s ease-in-out;;
 }
 
 .menu__list {
