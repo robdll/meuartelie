@@ -6,8 +6,12 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
-
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 export default function Home() {
+  const { t } = useTranslation();
+
+  
   return (
     <div>
       <Navbar></Navbar>
@@ -18,10 +22,10 @@ export default function Home() {
       <Testimonial></Testimonial>
       <Subscribe></Subscribe>
       <Footer></Footer>
-      <div className='footer__rights'>
-        Todos os direitos reservados por Cintya Flores
+      <div className="footer__rights">
+        {t("footerTermsTitle")}
         <br />
-        Meu Arteliê 2021
+        {t("footerTermsSubtitle")}
       </div>
     </div>
   );
