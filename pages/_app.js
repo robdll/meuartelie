@@ -4,28 +4,44 @@ import { appWithI18Next, useSyncLanguage } from "ni18n";
 import { ni18nConfig } from "../ni18n.config";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import Cookies from 'js-cookie';
+import { setCookie, getCookie } from "cookies-next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import i18next from "i18next";
+
+i18next.use(LanguageDetector).init({
+  detection: {
+    order: [
+      "querystring",
+      "cookie",
+      "navigator",
+      "htmlTag",
+      "path",
+      "subdomain",
+    ],
+    caches: ["cookie"],
+    lookupCookie: "lang",
+  },
+  fallbackLng: "pt",
+});
 
 function MyApp({ Component, pageProps }) {
   const { t, i18n } = useTranslation();
 
-  // useSyncLanguage(locale);
-
   const changeLanguage = () => {
-    const locale = Cookies.get('MY_LANGUAGE');
+    const locale = getCookie("lang");
     const urlParams = new URLSearchParams(window.location.search);
     const language = urlParams.get("lang");
-    const browserLang = navigator.language || navigator.userLanguage; 
 
     if (language) {
-      window.document.cookie = `MY_LANGUAGE=${language}`;
+      setCookie("lang", language);
       i18n.changeLanguage(language);
     } else if (locale) {
-      window.document.cookie = `MY_LANGUAGE=${locale}`;
-      i18n.changeLanguage(locale);
-    } else if(browserLang){
-      window.document.cookie = `MY_LANGUAGE=${browserLang.slice(0,2)}`;
-      i18n.changeLanguage(browserLang.slice(0,2) || en);
+      setCookie("lang", locale.slice(0, 2));
+      i18n.changeLanguage(locale.slice(0, 2));
+    } else {
+      const detectedLanguage = i18next.language || "pt";
+      setCookie("lang", detectedLanguage.slice(0, 2));
+      i18n.changeLanguage(detectedLanguage.slice(0, 2));
     }
   };
 

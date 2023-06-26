@@ -1,9 +1,9 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import ServicesHeader from '../components/ServicesHeader'
-import ServicesDetail from '../components/ServicesDetail'
-import Subscribe from '../components/Subscribe'
-import ContactForm from '../components/ContactForm'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import ServicesHeader from "../components/ServicesHeader";
+import ServicesDetail from "../components/ServicesDetail";
+import Subscribe from "../components/Subscribe";
+import ContactForm from "../components/ContactForm";
 import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t } = useTranslation();
@@ -18,9 +18,8 @@ export default function Home() {
       <div className="footer__rights">
         {t("footerTermsTitle")}
         <br />
-        {t("footerTermsSubtitle")}
+        {t("footerTermsSubtitle") + new Date().getFullYear()}
       </div>
-
     </div>
-  )
+  );
 }

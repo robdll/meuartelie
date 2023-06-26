@@ -55,10 +55,14 @@
     "serviceVideoSubContent": " I monitor the entire process via whatsapp, giving suggestions and support in its evolution. The classes are designed to teach shapes and effects with colored pencils and some other materials (if you are interested) with the aim of helping to improve the artist's own style, so that his style is always unique!",
     "serviceHeader3": "Consultation",
     "serviceHeader4": "Workshop",
-    "contactTitle": "Contact-Me",
-    "contactSubTitle1": "Your name",
-    "contactSubTitle2": "Enter email address",
-    "contactSubTitle3": "Your Text Here",
-    "contactButtonSend": "To send",
-    "contactButtonSent": "Sent"
+    "contact": {
+        "title": "Contact-Me",
+        "placeholders": {
+            "name": "Your name",
+            "email": "Enter email address",
+            "message": "Your Text Here",
+            "toSend": "To send",
+            "toSent": "Sent"
+        }
+    }
 }

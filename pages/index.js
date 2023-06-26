@@ -7,11 +7,8 @@ import Testimonial from "./components/Testimonial";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
-import { useEffect } from "react";
 export default function Home() {
   const { t } = useTranslation();
-
-  
   return (
     <div>
       <Navbar></Navbar>

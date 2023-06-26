@@ -1,10 +1,10 @@
-const supportedLngs = ['pt', 'en']
+const supportedLngs = ["pt", "en"];
 
 export const ni18nConfig = {
-  fallbackLng: supportedLngs,
+  fallbackLng: supportedLngs[0],
   supportedLngs,
-  ns: ['translation'],
+  ns: ["translation"],
   react: {
     useSuspense: false,
   },
-}
+};

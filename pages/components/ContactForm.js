@@ -40,10 +40,10 @@ const ContactForm = _ => {
         
     return (
         <form id="contact" className={`section ${styles.contactform}`} onSubmit={submitContactForm}>
-            <h2 className={`title`}>{t("contactTitle")}</h2>
-            <input value={contactName} onChange={ e => { onNameChange(e.target.value);} } type="text" className={styles.subscribe__input} placeholder={t("contactSubTitle1")} required/>
-            <input value={contactEmail} onChange={ e => { onEmailChange(e.target.value);} } type="email" className={styles.subscribe__input} placeholder={t("contactSubTitle2")} required/>
-            <input value={contactMessage} onChange={ e => { onMessageChange(e.target.value);} } type="textarea" className={styles.subscribe__input} placeholder={t("contactSubTitle3")} required/>
+            <h2 className={`title`}>{t("contact.title")}</h2>
+            <input value={contactName} onChange={ e => { onNameChange(e.target.value);} } type="text" className={styles.subscribe__input} placeholder={t("contact.placeholders.name")} required/>
+            <input value={contactEmail} onChange={ e => { onEmailChange(e.target.value);} } type="email" className={styles.subscribe__input} placeholder={t("contact.placeholders.email")} required/>
+            <input value={contactMessage} onChange={ e => { onMessageChange(e.target.value);} } type="textarea" className={styles.subscribe__input} placeholder={t("contact.placeholders.message")} required/>
             {sendErr}
             <button type="submit" className={`btn ${styles.btn}`}>{btnCopy}</button>
         </form>

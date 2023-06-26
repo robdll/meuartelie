@@ -2,19 +2,9 @@ import styles from "../../styles/Navbar.module.scss";
 import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 
-const changeLanguage = (i18n, language) => {
-  window.document.cookie = "MY_LANGUAGE="+language
-  i18n.changeLanguage(language);
-};
-
-const languages = [
-  { code: "pt", translateKey: "Portuguese" },
-  { code: "en", translateKey: "english" },
-];
-
 const Menu = (props) => {
   const router = useRouter();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const goTo = (destination) => {
     let options = {
       shallow: router.pathname.includes("contact"),
@@ -52,18 +42,6 @@ const Menu = (props) => {
             <span>{t("topSliderMenu3")} </span>
           </li>
         </ul>
-        <div>
-          {languages.map((language) => (
-            <button
-              data-id={`${language.code}-button`}
-              // className={i18n.language === language.code ? "active" : undefined}
-              onClick={() => changeLanguage(i18n, language.code, router)}
-              key={language.code}
-            >
-              {t(language.translateKey)}
-            </button>
-          ))}
-        </div>
       </div>
     </div>
   );
