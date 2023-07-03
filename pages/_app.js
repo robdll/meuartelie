@@ -1,6 +1,6 @@
 import '../styles/globals.scss'
 import Head from 'next/head'
-import withI18n from "./i18n/withI18n";
+import withI18n from "../i18n/withI18n";
 import { useTranslation } from 'react-i18next'
 import localFont from 'next/font/local'
 
@@ -8,7 +8,6 @@ const appFont = localFont({
   src: './fonts/Jokerman.woff2',
   variable: '--font-jokerman',
 })
-
 
 function MyApp({ Component, pageProps }) {
   const { t } = useTranslation();
