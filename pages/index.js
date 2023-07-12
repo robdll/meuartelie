@@ -6,8 +6,15 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
+import { useTranslation } from 'react-i18next'
+import { useRouter } from 'next/router'
+import { useSyncLanguage } from 'ni18n'
 
 export default function Home() {
+  const { t } = useTranslation('translations');
+  const router = useRouter()
+  useSyncLanguage(router.locale)
+
   return (
     <div>
       <Navbar></Navbar>
@@ -19,9 +26,9 @@ export default function Home() {
       <Subscribe></Subscribe>
       <Footer></Footer>
       <div className='footer__rights'>
-        Todos os direitos reservados por Cintya Flores
+        {t('copyrights')}
         <br />
-        Meu Arteliê 2021
+        Meu Arteliê 2021 
       </div>
     </div>
   );

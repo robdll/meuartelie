@@ -1,7 +1,7 @@
 import '../styles/globals.scss'
 import Head from 'next/head'
-import withI18n from "../i18n/withI18n";
-import { useTranslation } from 'react-i18next'
+import i18n from '../i18n/withI18n'
+
 import localFont from 'next/font/local'
 
 const appFont = localFont({ 
@@ -10,8 +10,6 @@ const appFont = localFont({
 })
 
 function MyApp({ Component, pageProps }) {
-  const { t } = useTranslation();
-  console.log(t('hello'));
   return <>
     <Head>
       <title>Meu Arteliê</title>
@@ -24,4 +22,4 @@ function MyApp({ Component, pageProps }) {
   </>
 }
 
-export default withI18n(MyApp)
+export default i18n(MyApp);
