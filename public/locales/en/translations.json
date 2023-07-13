@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "language": {
+      "english": "english",
+      "portuguese": "portuguese",
+      "italian": "italian"
+    },
+    "menu": {
+      "home": "Home",
+      "services": "Services",
+      "contact": "Contacts"
+    }
+  },
+  "home": {
+    "title": "Meu Arteliê",
+    "subtitle": "Cocriando uma versão melhor de Gaia através da energia das mandalas.",
+    "button": "Services"
+  },
+  "about": {
+    "title": "About me",
+    "text-1": "Sou uma buscadora, curiosa, atenta e sonhadora. No meu processo da busca pelo autoconhecimento, descobri, nas mandalas, um caminho para manifestar a minha capacidade de criação. Elas me trouxeram cura, de questões psicológicas, emocionais e até físicas, porque tudo, afinal é energia e as mandalas como símbolos sagrados, são portais de energia.",
+    "text-2": "Vinda de uma trajetória acadêmica, com 20 anos de experiência em sala de aula, decidi, usar essa capacidade didática para ser uma facilitadora a fim de te apresentar um caminho de conexão entre você e seu Eu Superior! Espero que gostem!",
+    "signature": "Empreendedora, Treinadora, Facilitadora"
+  },
+  "project": {
+    "title": "MeuArtelie Project"
+  },
+  "services": {
+    "title": "Services",
+    "card-1-title": "Mandala Art",
+    "card-1-description": "Encomende já sua Mandala Multidimensional",
+    "card-1-longtext-1": "Receba seu portal multidimensional na sua casa. As mandalas sob encomenda são itens exclusivos feitos com base numa conversa de uma hora realizada contigo, onde vamos nos conhecer para que eu possa perceber sua energia. Vou compreender o que você está sentindo, vivendo, o que deseja atrair. É um processo de anamnese, onde nem sempre as cores que você mais gosta serão as mais indicadas para o momento em que você está vivenciando.",
+    "card-1-longtext-2": "Assim, esta conversa ajuda a orientar a minha intuição para materializar seu portal dimensional usando a Geometria Sagrada, o poder dos números, das formas e cores. Você receberá, além da mandala, uma descrição completa das energias da mesma, um relatório com a numerologia do seu nome e data de nascimento, além de indicação de quais espaços da casa são mais indicados para colocar seu portal energético com base no Feng Shui. Invista na qualidade energética do seu lar.",
+    "card-2-title": "Video Aula",
+    "card-2-description": "Aprenda ou aperfeiçoe sua técnica de desenho de mandalas",
+    "card-2-longtext-1": "O método de ensino foi desenvolvido por mim para funcionar com a maior comodidade para a sua rotina em tempos de pandemia e isolamento social. Existe uma enorme quantidade de aulas divididas em blocos de 4 vídeos que serão montadas conforme seu interesse, necessidade ou nível técnico. Cada aula possui um desafio a ser cumprido e somente após a finalização do desafio é que o próximo vídeo pode ser acessado.",
+    "card-2-longtext-2": "Faço acompanhamento via whatsApp de todo o processo, dando sugestões e apoio na sua evolução. As aulas são pensadas para ensinar formas e efeitos com lápis de cor e alguns outros materiais (se tiver interesse) com o intuito de auxiliar no aprimoramento de um estilo próprio do artista, de maneira que seu estilo seja sempre único!",
+    "card-3-title": "Consulta",
+    "card-3-description": "Marque sua consulta terapêutica e comece já o processo de autocura",
+    "card-3-longtext-1": "Você pode ainda não perceber, mas as mandalas falam muito sobre as energias do artista quando este estava desenhando. Numa consulta iremos dialogar sobre o momento vivido e encontrar alternativas para auxiliar na dissolução de problemas e traumas. Se você já desenha mandalas, faço a leitura e interpretação de suas mandalas desde que elas tenham sido feitas por você para si mesmo. A partir desta leitura, indico que tipo de formas, cores e práticas precisam ser incorporadas para equilibrar as energias, caso estas estejam desequilibradas e retirar conselhos para como lidar com a situação vivida.",
+    "card-3-longtext-2": "Se você já desenha por encomenda, ou para presentear as pessoas, essa é uma oportunidade de valorizar sua arte, porque forneço uma descrição aprofundada das energias da mandala, levando em consideração as cores, formas, geometrias, números e sua disposição na mandala. Utilizo conhecimentos da numerologia, geometria sagrada, Yin e Yang e Feng Shui para construir um relatório completo para você! Com este relatório você poderá enviar junto com a mandala a descrição das energias que ela manifesta, fazendo uma interpretação pessoal de como aquele relatório dialoga com a vida da pessoa a quem a mandala se destina. Este relatório será um guia, mas sua intuição, no final, é quem faz o maior trabalho!",
+    "card-4-title": "Workshop",
+    "card-4-description": "Busque aprofundamento sobre as mandalas como tecnologias de cura",
+    "card-4-longtext-1": "São cursos realizados ao vivo por Conferência em formato de workshop. Com um ou dois dias de duração, foram pensados para propiciar o aprofundamento da compreensão energética das Mandalas como tecnologias de cura. Para compreender esta Tecnologia é preciso, como com qualquer tecnologia, compreender o funcionamento dos elementos que compõem a tecnologia e, principalmente, o seu uso. Temas dos Eventos:",
+    "card-4-list-1": "Numerologia e mandala",
+    "card-4-list-2": "Geometria Sagrada e física quântica",
+    "card-4-list-3": "Cores na Mandala",
+    "card-4-sublist-1": "- para teoria das cores",
+    "card-4-sublist-2": "- para a fraternidade branca",
+    "card-4-sublist-3": "- para tradição chinesa",
+    "card-4-sublist-4": "- em conexão com os chakras",
+    "card-4-longtext-2": "Estes eventos incluem apostila, vídeo extra promocional (técnica de desenho relacionada à temática), e acompanhamento da aprendizagem por whatsapp."
+  },
+  "testimonial": {
+    "title": "Reviews",
+    "card-1-author": "Tânia Dantas",
+    "card-1-review": "O meu despertar da consciência foi um processo guiado pela Cintya Flores. Desenhar mandalas e compreender sua simbologia foi determinante neste processo",
+    "card-1-location": "Bahia, Brasil",
+    "card-2-author": "Creuza Conceição",
+    "card-2-review": "Descubra seus mistérios e melhores sentimentos dentro das mágicas mandalas. Elas me levavam a esta linda viagem!",
+    "card-2-location": "Bahia, Brasil"
+  },
+  "newsletter": {
+    "title": "Subscribe",
+    "text": "Aproveite esta mandala prontinha para imprimir e deixe este portal iluminar sua casa! As intenções desta mandala são equilíbrio, cura e sabedoria!",
+    "placeholder": "Insira o endereço de e-mail",
+    "button": "Join",
+    "success": "Check your email",
+    "error": "Something went wrong, try again later"
+  },
+  "footer": {
+    "title": "Meu Arteliê",
+    "subtitle": "Mandalas como símbolos sagrados, são portais de energia, um caminho de conexão entre você e seu Eu Superior!",
+    "sitemap": {
+      "title": "Sitemap",
+      "home": "Home",
+      "about": "About me",
+      "project": "Projeto",
+      "services": "Serviços",
+      "testimonial": "Clientes",
+      "newsletter": "Inscriva-se",
+      "art": "Mandala art",
+      "class": "Video aula",
+      "reading": "Mandala reading",
+      "selfknowledge": "Autoconhecimento"
+    },
+    "contacts": {
+      "title": "Contactame"
+    },
+    "copyrights": "All Rights are reserved by Cintya Flores"
+  },
+  "contact": {
+    "title": "Contact me",
+    "name-placeholder": "Your Name",
+    "email-placeholder": "Your e-mail address",
+    "text-placeholder": "Your message",
+    "button-default": "Send",
+    "button-sent": "Sent",
+    "error": "Error on email send, try later"
+  }
+}

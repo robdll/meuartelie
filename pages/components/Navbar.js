@@ -3,6 +3,7 @@ import styles from "../../styles/Navbar.module.scss";
 import Menu from "./MenuOverlay";
 import Link from "next/link";
 import Logo from "../../public/svg/Logo.svg";
+import LanguageSelector from './LanguageSelector'
 
 function Navbar() {
   const [menu, setToggle] = useState(false);
@@ -20,6 +21,7 @@ function Navbar() {
         onClick={toggleMenu}
       >
         <div className={styles.menu_btn__burger}></div>
+        <LanguageSelector />
       </div>
       <Menu toggle={menu} toggleMenu={setToggle}></Menu>
     </div>

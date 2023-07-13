@@ -18,10 +18,13 @@
   padding: 2px;
   height: 50px;
   justify-self: center;
+  svg {
+    width: 45px;
+  }
 }
 
 .menu__container {
-  font-family: 'Jokerman';
+  font-family: var(--font-jokerman);
   position: fixed;
   top: -400px;
   left: 0;
