@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from "../../styles/LanguageSelector.module.scss";
 import LanguageIcon from "../../public/svg/language_icon.svg";
+import { getCookie, setCookie } from "cookies-next";
 
 import { useSyncLanguage } from 'ni18n'
 
@@ -15,6 +16,13 @@ const LanguageSelector = () => {
   const { t, i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
 
+  useEffect(() => {
+    const language = getCookie('lng');
+    if (language) {
+      i18n.changeLanguage(language)
+    }
+  }, [])
+
   const handleClick = (e) => {
     e.stopPropagation()
     setIsOpen(!isOpen)
@@ -23,20 +31,21 @@ const LanguageSelector = () => {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language)
     setIsOpen(!isOpen)
+    setCookie('lng', language)
   }
 
 
   return (
     <div
-      className={`${styles.language__selector} ${isOpen ? styles.open : ''}`} 
+      className={`${styles.language__selector} ${isOpen ? styles.open : ''}`}
       onClick={handleClick}
     >
       {!isOpen && <LanguageIcon />}
       {isOpen && languages
-        .filter( language => language.code !== i18n.language)
+        .filter(language => language.code !== i18n.language)
         .map((language) => (
           <div
-            className={i18n.language === language.code ? `btn ${styles.language__selector_item}`  : `btn ${styles.language__selector_item}`}
+            className={i18n.language === language.code ? `btn ${styles.language__selector_item}` : `btn ${styles.language__selector_item}`}
             onClick={() => changeLanguage(language.code)}
             key={language.code}
           >
