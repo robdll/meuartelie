@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../styles/Project.module.scss";
 import ReactPlayer from "react-player/lazy";
+import { useTranslation } from 'react-i18next'
 
 const Project = (_) => {
+  const { t } = useTranslation();
   const [hasWindow, setHasWindow] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -11,9 +13,9 @@ const Project = (_) => {
   }, []);
   return (
     <div id='project' className={`section ${styles.project}`}>
-      <h2 className={`title ${styles.title}`}>Projeto MeuArtelie</h2>
+      <h2 className={`title ${styles.title}`}>{t('project.title')}</h2>
       <span className={`separator ${styles.separator}`}> </span>
-      { hasWindow && (
+      {hasWindow && (
         <ReactPlayer
           style={{
             maxWidth: "800px",
