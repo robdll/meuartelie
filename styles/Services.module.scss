@@ -6,7 +6,7 @@
   padding: 15% 10% 10% 10%;
 }
 
-.separator  {
+.separator {
   margin: 5% auto 15% auto;
 }
 
@@ -24,9 +24,9 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
-  box-shadow: 0px 5px 10px 0px rgba(20,6,35,0.09);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(20, 6, 35, 0.09);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(20, 6, 35, 0.09);
+  box-shadow: 0px 5px 10px 0px rgba(20, 6, 35, 0.09);
   min-height: 125px;
   padding: 30px 0;
   cursor: pointer;
@@ -41,12 +41,13 @@
   box-shadow: 0px 5px 10px 0px rgb(143 52 235 / 30%);
 }
 
-.service__name {
+.name {
   font-family: 'Lora', serif;
   font-size: 0.8rem;
   text-align: center;
   margin: 10px 0;
   width: 80%;
+  color: $secondary-font-color;
 }
 
 .more {
@@ -68,12 +69,15 @@
   .services {
     padding: 10%;
   }
+
   .separator {
     margin: 2rem auto 3rem auto;
   }
+
   .service__name {
     font-size: 1rem;
   }
+
   .more {
     display: block;
     text-align: center;
@@ -86,5 +90,5 @@
   .service__name {
     font-size: 1.3rem;
   }
-  
+
 }

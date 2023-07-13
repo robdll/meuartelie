@@ -17,29 +17,29 @@ const Services = _ => {
         <Link href="/services#art">
           <article className={styles.card}>
             <MandalaArtIcon className={styles.icon}></MandalaArtIcon>
-            <h3 className={styles.service__name}>{t('services.card-1-title')} Art</h3>
-            <div className={styles.more}>{t('services.card-2-description')} </div>
+            <h3 className={styles.name}>{t('services.card-1-title')}</h3>
+            <div className={styles.more}>{t('services.card-1-description')} </div>
           </article>
         </Link>
         <Link href="/services#courses">
           <article className={styles.card}>
             <VideoocurseIcon className={styles.icon}></VideoocurseIcon>
-            <h3 className={styles.service__name}>{t('services.card-1-title')} Aula</h3>
+            <h3 className={styles.name}>{t('services.card-2-title')}</h3>
             <div className={styles.more}>{t('services.card-2-description')} </div>
           </article>
         </Link>
         <Link href="/services#reading">
           <article className={styles.card}>
             <ClassesIcon className={styles.icon}></ClassesIcon>
-            <h3 className={styles.service__name}>{t('services.card-1-title')}</h3>
-            <div className={styles.more}>{t('services.card-2-description')} </div>
+            <h3 className={styles.name}>{t('services.card-3-title')}</h3>
+            <div className={styles.more}>{t('services.card-3-description')} </div>
           </article>
         </Link>
         <Link href="/services#workshop">
           <article className={styles.card}>
             <SelfknoledgeIcon className={styles.icon}></SelfknoledgeIcon>
-            <h3 className={styles.service__name}>{t('services.card-1-title')}</h3>
-            <div className={styles.more}>{t('services.card-2-description')} </div>
+            <h3 className={styles.name}>{t('services.card-4-title')}</h3>
+            <div className={styles.more}>{t('services.card-4-description')} </div>
           </article>
         </Link>
       </div>
