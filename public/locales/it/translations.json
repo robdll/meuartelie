@@ -1,3 +1,66 @@
 {
-  "copyright": "Tutti i diritti sono riservati da Cintya Dantas Flores"
+  "navbar": {
+    "language": {
+      "english": "inglese",
+      "portuguese": "portoghese",
+      "italian": "italiano"
+    }
+  },
+  "home": {
+    "title": "Meu Arteliê",
+    "subtitle": "Cocriando uma versão melhor de Gaia através da energia das mandalas.",
+    "button": "Servizi"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "text-1": "Sou uma buscadora, curiosa, atenta e sonhadora. No meu processo da busca pelo autoconhecimento, descobri, nas mandalas, um caminho para manifestar a minha capacidade de criação. Elas me trouxeram cura, de questões psicológicas, emocionais e até físicas, porque tudo, afinal é energia e as mandalas como símbolos sagrados, são portais de energia.",
+    "text-2": "Vinda de uma trajetória acadêmica, com 20 anos de experiência em sala de aula, decidi, usar essa capacidade didática para ser uma facilitadora a fim de te apresentar um caminho de conexão entre você e seu Eu Superior! Espero que gostem!",    
+    "signature": "Empreendedora, Treinadora, Facilitadora"
+  },
+  "project": {
+    "title": "Projeto MeuArtelie"
+  },
+  "services": {
+    "title": "Meus Serviços",
+    "card-1": "Encomende já sua Mandala Multidimensional",
+    "card-2": "Aprenda ou aperfeiçoe sua técnica de desenho de mandalas",
+    "card-3": "Marque sua consulta terapêutica e comece já o processo de autocura",
+    "card-4": "Busque aprofundamento sobre as mandalas como tecnologias de cura"
+  },
+  "testimonial": {
+    "title": "Clientes Felizes",
+    "card-1-author": "Tânia Dantas",
+    "card-1-review": "O meu despertar da consciência foi um processo guiado pela Cintya Flores. Desenhar mandalas e compreender sua simbologia foi determinante neste processo",
+    "card-1-location": "Bahia, Brasil",
+    "card-2-author": "Creuza Conceição",
+    "card-2-review": "Descubra seus mistérios e melhores sentimentos dentro das mágicas mandalas. Elas me levavam a esta linda viagem!",
+    "card-2-location": "Bahia, Brasil"
+  },
+  "newsletter": {
+    "title": "Inscreva-se",
+    "text": "Aproveite esta mandala prontinha para imprimir e deixe este portal iluminar sua casa! As intenções desta mandala são equilíbrio, cura e sabedoria!",
+    "placeholder": "Insira o endereço de e-mail",
+    "button": "Subscreva"
+  },
+  "footer": {
+    "title":"Meu Arteliê",
+    "subtitle":"Mandalas como símbolos sagrados, são portais de energia, um caminho de conexão entre você e seu Eu Superior!",
+    "sitemap": {
+      "title": "Mapa do Site",
+      "home": "Home",
+      "about": "Sobre Mim",
+      "project": "Projeto",
+      "services": "Serviços",
+      "testimonial": "Clientes",
+      "newsletter": "Inscriva-se",
+      "art": "Mandala art",
+      "class": "Video aula",
+      "reading": "Mandala reading",
+      "selfknowledge": "Autoconhecimento"
+    },
+    "contacts": {
+      "title": "Contactame"
+    },
+    "copyrights": "Tutti i diritti sono riservati da Cintya Dantas Flores"
+  }
 }

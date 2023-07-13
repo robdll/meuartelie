@@ -26,9 +26,9 @@ export default function Home() {
       <Subscribe></Subscribe>
       <Footer></Footer>
       <div className='footer__rights'>
-        {t('copyrights')}
+        {t('footer.copyrights')}
         <br />
-        Meu Arteliê 2021 
+        Meu Arteliê {new Date().getFullYear()} 
       </div>
     </div>
   );

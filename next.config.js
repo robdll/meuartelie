@@ -7,11 +7,6 @@ module.exports = {
 
     return config;
   },
-  i18n: {
-    defaultLocale: 'pt',
-    locales: ['pt', 'en', 'it'],
-    localeDetection: false,
-  },
   images: {
     domains: ['scontent.cdninstagram.com'],
   }
