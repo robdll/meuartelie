@@ -18,7 +18,8 @@ const Project = (_) => {
       {hasWindow && (
         <ReactPlayer
           style={{
-            maxWidth: "800px",
+            maxWidth: "600px",
+            maxHeight: "380px",
             margin: " 0 auto 0 auto",
             overflow: "hidden",
             borderRadius: "30px",
