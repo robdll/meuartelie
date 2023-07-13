@@ -5,30 +5,30 @@ import initMiddleware from '../../lib/init-middleware';
 //API RESPONSE FORMAT: https://github.com/omniti-labs/jsend
 
 // Initialize the cors middleware
-const cors = initMiddleware( Cors({ methods: ['POST'] }) );
+const cors = initMiddleware(Cors({ methods: ['POST'] }));
 mailchimp.setConfig({
   apiKey: process.env.API_KEY_MAILCHIMP,
-  server: "us7",  
+  server: "us7",
 });
 
 
 export default async function handler(req, res) {
   await cors(req, res)
   let payload = {}
-  if(req.method === 'POST') {
+  if (req.method === 'POST') {
     let mailchimpRes = await postUser(req.body)
     res.statusCode = mailchimpRes.status;
     payload.code = mailchimpRes.status;
-    if(mailchimpRes.status === 'subscribed') {
+    if (mailchimpRes.status === 'subscribed') {
       res.statusCode = 200;
       payload.code = 200;
-        res.setHeader('Content-Type', 'application/json')
+      res.setHeader('Content-Type', 'application/json')
       payload.status = "success",
-      payload.data = { "post" : { status: "subscribed" } }
+        payload.data = { "post": { status: "subscribed" } }
       res.end(JSON.stringify(payload));
     } else {
       payload.status = "fail",
-      res.end()
+        res.end()
     }
   }
   else {
@@ -48,5 +48,5 @@ async function postUser(b) {
   };
   // 966766f547 is the list id for website subscriber
   const id = "966766f547";
-  return await mailchimp.lists.addListMember(id, body).catch( e => e );
+  return await mailchimp.lists.addListMember(id, body).catch(e => e);
 };

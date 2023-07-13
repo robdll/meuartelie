@@ -14,8 +14,7 @@ const About = _ => {
         <Image
           src="/png/sobremim.webp"
           alt="Cintya Flores"
-          width={482}
-          height={421}
+          fill
         />
       </div>
       <h2 className={`title ${styles.title}`}>{t('about.title')} </h2>

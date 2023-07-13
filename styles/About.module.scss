@@ -14,10 +14,15 @@
 
 
 .image__container {
-  width: 100%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 295px;
+  max-width: 336px;
 }
 
 .svg {
@@ -30,10 +35,13 @@
   }
 }
 
+@media screen and (min-width: 425px) {}
+
 @media screen and (min-width: 768px) {
   .about {
     padding: 10%;
   }
+
   .paragraph {
     font-size: 1rem;
   }
@@ -52,22 +60,28 @@
   }
 
   .image__container {
-    max-width: 482px;
     align-self: center;
     justify-self: flex-start;
     grid-column: 2/5;
     grid-row: 1 / 7;
+    height: 482px;
+    width: 421px;
+    max-width: 421px;
   }
 
-  .title, .separator, .paragraph, .svg  {
+  .title,
+  .separator,
+  .paragraph,
+  .svg {
     grid-column: 5 / 7;
   }
 
-  .title, .separator  {
+  .title,
+  .separator {
     margin: 0px;
   }
 
-  .paragraph  {
+  .paragraph {
     font-size: 0.8rem;
   }
 

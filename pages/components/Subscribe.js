@@ -36,8 +36,7 @@ function Subscribe(_) {
         <Image
           src="/png/subscribe.webp"
           alt="gift mandala"
-          width={328}
-          height={667}
+          fill
         />
       </div>
       <p className={styles.subscribe__copy}>{t('newsletter.text')}</p>
