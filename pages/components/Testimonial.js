@@ -49,8 +49,7 @@ function Item({ url, idx }) {
           className={styles.testimonial__photo}
           src={url}
           alt="Testimonial"
-          width={312}
-          height={300}
+          fill
         />
       </div>
       <p className={styles.testimonial__copy}>{t(`testimonial.card-${idx}-review`)}</p>
