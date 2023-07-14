@@ -93,7 +93,7 @@
     "title": "ContactaMe",
     "name-placeholder": "Seu Nome",
     "email-placeholder": "Insira o endereço de e-mail",
-    "text-placeholder": "Seu Texto Aqui",
+    "message-placeholder": "Seu Texto Aqui",
     "button-default": "Enviar",
     "button-sent": "Enviado",
     "error": "Error"
