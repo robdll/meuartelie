@@ -16,7 +16,7 @@ const ContactForm = _ => {
   const fields = [
     { name: 'name', type: 'text', placeholder: `contact.name-placeholder` },
     { name: 'email', type: 'email', placeholder: `contact.email-placeholder` },
-    { name: 'message', type: 'textarea', placeholder: `contact.textareaa-placeholder` },
+    { name: 'message', type: 'textarea', placeholder: `contact.message-placeholder` },
   ]
 
   const handleInput = (e) => {
@@ -25,7 +25,7 @@ const ContactForm = _ => {
     setFormData((prevState) => ({
       ...prevState,
       [fieldName]: fieldValue
-    }));
+    }))
   }
 
   const submitForm = (e) => {
@@ -70,6 +70,8 @@ const ContactForm = _ => {
             className={styles.subscribe__input}
             name={field.name}
             type={field.type}
+            value={formData[field.name]}
+            onChange={handleInput}
             placeholder={t(field.placeholder)}
             required
           />
