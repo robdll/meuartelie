@@ -3,8 +3,7 @@ const nodemailer = require("nodemailer");
 
 export default (req, res) => {
 
-  const { name, email, text } = req.body;
-
+  const { name, email, message } = req.body;
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -19,7 +18,7 @@ export default (req, res) => {
     subject: `New mail from ${email}`,
     text: `
     ${name} wrote:
-    ${text}
+    ${message}
     `,
   };
 
@@ -28,7 +27,7 @@ export default (req, res) => {
       console.log(err);
       res.send("error" + JSON.stringify(err));
     } else {
-      console.log("mail send");
+      console.log("mail sent");
       res.send("success");
     }
   });
