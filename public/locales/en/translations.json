@@ -93,7 +93,7 @@
     "title": "Contact me",
     "name-placeholder": "Your Name",
     "email-placeholder": "Your e-mail address",
-    "text-placeholder": "Your message",
+    "message-placeholder": "Your message",
     "button-default": "Send",
     "button-sent": "Sent",
     "error": "Error on email send, try later"

@@ -93,7 +93,7 @@
     "title": "Contattami",
     "name-placeholder": "Nome",
     "email-placeholder": "Indirizzo e-mail",
-    "text-placeholder": "Scrivi il tuo messaggio",
+    "message-placeholder": "Scrivi il tuo messaggio",
     "button-default": "Invia",
     "button-sent": "Inviato",
     "error": "Errore"
