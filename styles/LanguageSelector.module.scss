@@ -1,35 +1,46 @@
+@import './variables.scss';
+
+.language__selector {
+  position: absolute;
+  top: 120%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  align-items: flex-end;
+  &.open {
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  svg {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 5px 3px rgb(143 52 235 / 15%);
+    transform: translate(-10px);
+  }
+}
+
 .language__selector_item {
   font-family: "Lora";
-  padding: 3px 5px;
+  padding: 5px 8px;
   font-size: .8rem;
   &::first-letter {
     text-transform: uppercase
   }
 }
 
-.language__selector {
-  position: absolute;
-  top: 120%;
-  right: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  transform: translateX(50%);
-  cursor: pointer;
-  border-radius: 50%;
+.active {
   background-color: #fff;
-  box-shadow: inset 0px 0px 5px 3px rgb(143 52 235 / 15%);
-  &.open {
-    box-shadow: none;
-    border-radius: 0;
-    background-color: transparent;
-  }
-}
-
-.language_icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 4px;
+  color: $primary-color;
+  font-weight: bold;
+  box-shadow: inset 0px 0px 5px 3px rgb(143 52 235 / 25%);
+  border: 1px solid $primary-color;
 }

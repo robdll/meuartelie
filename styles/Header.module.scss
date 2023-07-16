@@ -5,6 +5,7 @@
   background-size: cover;
   padding-top: 5%;
   height: 100vh;
+  padding-top: 40px;
 }
 
 
@@ -96,6 +97,10 @@
 @media screen and (min-width: 425px) {
   .image__container {
     width: 80%;
+    max-width: 425px;
+  }
+  .header {
+    padding-top: 10px;
   }
 }
 
@@ -124,6 +129,7 @@
 @media screen and (min-width: 1024px) {
   .image__container {
     width: 100%;
+    max-width: 525px;
   }
   .header {
     background-size: cover;

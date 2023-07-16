@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "../../styles/Project.module.scss";
 import ReactPlayer from "react-player/lazy";
 import { useTranslation } from 'react-i18next'
-
 const Project = (_) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [hasWindow, setHasWindow] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -29,6 +28,7 @@ const Project = (_) => {
           controls={true}
           width='100%'
           height='100%'
+          light
         />
       )}
     </div>
