@@ -44,3 +44,10 @@
   box-shadow: inset 0px 0px 5px 3px rgb(143 52 235 / 25%);
   border: 1px solid $primary-color;
 }
+
+
+@media screen and (min-width: 1440px) {
+  .language__selector {
+    right: 0%;
+  }
+}
