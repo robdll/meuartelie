@@ -53,7 +53,7 @@ const LanguageSelector = () => {
       onClick={handleClick}
       onKeyDown={keyDownHandler}
     >
-      <LanguageIcon tabIndex={0} />
+      <LanguageIcon tabIndex={0} className={styles.langSvg}/>
       {isOpen && languages
         .map((language) => (
           <div

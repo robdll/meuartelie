@@ -3,6 +3,7 @@ import styles from "../../styles/ServicesDetail.module.scss";
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
 
+
 const ServicesDetail = (_) => {
   const { t } = useTranslation();
   return (
@@ -12,11 +13,9 @@ const ServicesDetail = (_) => {
         <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.image__container}>
           <Image
-            className='videoplaceholder'
-            src='/png/videocover.png'
-            alt='Art Service image'
-            width={312}
-            height={300}
+            src="/png/mandala_art.webp"
+            alt='Mandala Art'
+            fill
           />
         </div>
         <div className={styles.info__container}>
@@ -38,11 +37,9 @@ const ServicesDetail = (_) => {
         <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.image__container}>
           <Image
-            className='videoplaceholder'
-            src='/png/videocover.png'
-            alt='Art Service image'
-            width={312}
-            height={300}
+            src="/png/video-aula.webp"
+            alt='Video Aulas'
+            fill
           />
         </div>
         <div className={styles.info__container}>
@@ -61,11 +58,9 @@ const ServicesDetail = (_) => {
         <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.image__container}>
           <Image
-            className='videoplaceholder'
-            src='/png/videocover.png'
-            alt='Art Service image'
-            width={312}
-            height={300}
+            src="/png/consultas.webp"
+            alt='Consulta'
+            fill
           />
         </div>
         <div className={styles.info__container}>
@@ -89,12 +84,10 @@ const ServicesDetail = (_) => {
         <span className={`separator ${styles.separator}`}> </span>
         <div className={styles.image__container}>
           <Image
-            className='videoplaceholder'
-            src='/png/videocover.png'
-            alt='Art Service image'
-            width={312}
-            height={300}
-          />
+              src="/png/workshop.webp"
+              alt='Workshop'
+              fill
+            />
         </div>
         <div className={styles.info__container}>
           <p className={`paragraph ${styles.paragraph} ${styles.spacer}`}>
