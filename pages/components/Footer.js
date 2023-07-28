@@ -58,7 +58,7 @@ const Footer = _ => {
           <EmailIcon></EmailIcon> <Link href="/services#contact"> cintya@meuartelie.com </Link>
         </li>
         <li className={`${styles.flex} ${styles.phone}`}>
-          <PhoneIcon></PhoneIcon> +339 3513800037
+          <PhoneIcon></PhoneIcon> +39 3513800037
         </li>
       </ul>
     </div>
