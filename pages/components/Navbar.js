@@ -31,16 +31,18 @@ function Navbar() {
         onKeyDown={keyDownHandler}
         data-id="logo"
       />
-      <div
-        className={`${styles.menu_btn} ${menu ? styles.open : ""}`}
-        onClick={toggleMenu}
-        onKeyDown={keyDownHandler}
-        tabIndex={0}
-        data-id="hamburger"
-      >
-        <div className={styles.menu_btn__burger}></div>
+      <div className={styles.menu_actions_container}>
+        <div
+          className={`${styles.menu_btn} ${menu ? styles.open : ""}`}
+          onClick={toggleMenu}
+          onKeyDown={keyDownHandler}
+          tabIndex={0}
+          data-id="hamburger"
+        >
+          <div className={styles.menu_btn__burger}></div>
+        </div>
+        <LanguageSelector />
       </div>
-      <LanguageSelector />
       <Menu toggle={menu} toggleMenu={setToggle}></Menu>
     </div>
   );

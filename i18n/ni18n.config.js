@@ -1,6 +1,6 @@
 const ni18nConfig = {
   fallbackLng: 'pt',
-  supportedLngs: ['pt', 'en', 'it'],
+  supportedLngs: ['pt', 'en', 'it', 'es'],
   ns: ['translations'],
   react: {
     useSuspense: false,

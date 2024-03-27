@@ -7,6 +7,7 @@ import { useSyncLanguage } from 'ni18n'
 
 const languages = [
   { code: 'pt', translateKey: 'portuguese' },
+  { code: 'es', translateKey: 'spanish' },
   { code: 'en', translateKey: 'english' },
   { code: 'it', translateKey: 'italian' },
 ]
